@@ -1,0 +1,11 @@
+/*
+  - inline-block: class 'in-block';
+  - list-style: none, class 'li-none';
+
+*/
+.in-block{
+  display: inline-block;
+}
+.li-none{
+  list-style: none;
+}

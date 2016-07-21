@@ -1,0 +1,455 @@
+<!Doctype>
+<html lang="pt-br" xmlns:border-radius="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font-awesome-4.6.3/font-awesome-4.6.3/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    <title>GPM - Goveno Na Palma Da Mão</title>
+  </head>
+  <body>
+        <header>
+          <div class="barra-branca">
+              <div class="cabecalho-branco"><!--Logo, notificações, configuração -->
+                  <div class="logo">
+                    <img src="imagem\gpm-logo-cinza.png" height="30px"/>
+                    <!--<h5>GOVERNO NA</br>PALMA DA MÃO</h5>-->
+                   </div>
+       <!------------------ ÁREA QUE ENGLOBA OS ICONES DE NOTIFICAÇÃO, CONFIGURAÇÃO E PERFIL ------------->
+                  <div class="not-set-perf">
+       <!------------------ ÁREA DE NOTIFICAÇÃO ---------------------------------------------------------->
+                      <div class="notificacao">
+                          <div class="bell-not not-icon-central"> <!-- Icone de Notificação -->
+                              <a class="icon-not"  alt="icone em forma de sino representando notifica&ccedil;&otilde;es">
+                                  <i class="fa fa-bell ">
+                                   </i>
+                               </a>
+                           </div>
+                           <div class="not-recentes">
+                               <i class="fa fa-circle quant-not-ball" aria-hidden="true"></i><!--Bollinha com a quantidade de notificação à ser visualizada -->
+                               <ul class="box-notificacoes">
+                                   <a alt="Direciona para a notifica&ccedil;&atilde;"><li>Última notificação</li></a>
+                                   <a alt="Direciona para a notifica&ccedil;&atilde;"><li>Atualização</li></a>
+                                   <a alt="Direciona para a notifica&ccedil;&atilde;"><li>Novas Notícias do governo da Bahia</li></a>
+                                </ul>
+                           </div>
+                        </div><!--fim da div notificacao -->
+       <!-------------------------- ÁREA DE CONFIGURAÇÃO --------------------------------------------------------------------->
+                      <div class="config">
+                          <div class="icon-config">
+                              <i class="fa fa-cog" aria-hidden="true"></i>
+                          </div>
+                          <!--div class="barra"></div-->
+                          <div class="box-config">
+                              <!--ul>
+                                 <li>Geral</li>
+                                 <li>Conta</li>
+                                 <li>Segurança</li>
+                                 <li>Privacidade</li>
+                              </ul-->
+                          </div>
+                      </div><!--fim da div config -->
+       <!-------------------- ÁREA PERFIL ---------------------------------------------------------->
+                      <div class="perfil">
+                          <div class="pic-user"><!--Foto do usuário -->
+                              <div class="imagem">
+                                  <img src="imagem\user.png" height="35px"/>
+                              </div>
+
+                          </div>
+                          <div class="seta">
+                              <i class="fa fa-caret-down" aria-hidden="true"></i>
+                          </div>
+                          <div class="box-itens-perfil">
+                              <!--ul>
+                                  <li>Perfil</li>
+                                  <li>Editar Conta</li>
+                              </ul-->
+                          </div>
+                      </div><!--fim da div perfil -->
+                   </div><!-- fim da div not-set-perf -->
+               </div><!-- fim do cabecalho-branco -->
+          </div>
+   <!----------- NAVEGADOR AZUL ------------------------------------------------------------------->
+       <div class="navegador-azul">
+            <div class="barra-navegador">
+              <nav><!-- os icons não seram imagens, e sim font-->
+                <ul class="ul-blue-bar">
+                  <li class="li-positio inl-blc apps">
+                      <i class="fa fa-th inl-blc"></i>
+                      <div class="servicos inl-blc">
+                        <p class="text">Serviços</p>
+                      </div>
+                  </li>
+                    <li class="li-positio inl-blc apps">
+                        <i class="material-icons inl-blc">track_changes</i>
+                          <div class="acompanhemento inl-blc">
+                            <p class="text">Acompanhamento</p>
+                          </div>
+                  </li>
+                    <li class="li-positio inl-blc apps">
+                        <i class="material-icons inl-blc">info</i>
+                        <div class="suporte inl-blc">
+                            <p class="text">Suporte/Ajuda</p>
+                        </div>
+                    </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </header>
+        <!---------------------------BLOCO CINZA----------------------------->
+        <div class="topo-busca-config">
+          <h2 class="h2-services">Serviços</h2>
+          <form class="button-config">
+            <button type="button">
+              <span>Configurações</span>
+              <i class="fa fa-cog fa-cog-button" aria-hidden="true"></i>
+            </button>
+          </form>
+          <div class="categorias-boxes-superior">
+              <div class="busca-services">
+                  <form class="shearch-bar" shearch-bar>
+                      <i class="fa fa-search" aria-hidden="true" ></i>
+                      <input id="busca" type="search" nome="busca" value="Filtrar serviços por pesquisa " ></input>
+                  </form>
+               </div>
+              <div class="blue-div-ul">
+                  <ul class="blue-ul">
+                      <li>
+                          <h5>Tudo</h5>
+                          <form  type="button" class="seta-button">
+                              <i class="fa fa-caret-down" aria-hidden="true"></i>
+                          </form>
+
+                          <div class="box-tudo">
+                              <ul class="box-links-tudo-ul">
+                                <li class="box-links-tudo-li">- Escolha uma opção -</li>
+                                <li class="box-links-tudo-li">Transporte</li>
+                                <li class="box-links-tudo-li">Automóvel</li>
+                                <li class="box-links-tudo-li">Segurança</li>
+                                <li class="box-links-tudo-li">Contas/Taxas</li>
+                                <li class="box-links-tudo-li">Saúde</li>
+                                <li class="box-links-tudo-li">Moradia</licl>
+                                <li class="box-links-tudo-li">Comércio</li>
+                                <li class="box-links-tudo-li">Documentos Pessoais</li>
+                                <li class="box-links-tudo-li">Educação</li>
+                              </ul>
+                          </div>
+                      </li>
+                      <li>
+                          <h5>Categoria</h5>
+                          <form  type="button" class="seta-button">
+                              <i class="fa fa-caret-down" aria-hidden="true"></i>
+                          </form>
+                          <div id="box-categoria">
+                            <ul>
+                              <li></li>
+                            </ul>
+                          </div>
+                      </li>
+                      <li>
+                          <h5>Órgão/Departamento</h5>
+                          <form  type="button" class="seta-button">
+                              <i class="fa fa-caret-down" aria-hidden="true"></i>
+                          </form>
+                          <div class="box-orgao">
+                            <ul>
+                              <li></li>
+                            </ul>
+                          </div>
+                      </li>
+                      <li>
+                          <h5>Mais Acessados</h5>
+                          <form  type="button" class="seta-button">
+                              <i class="fa fa-caret-down" aria-hidden="true"></i>
+                          </form>
+                          <div class="box-acessados">
+                            <ul>
+                              <li></li>
+                            </ul>
+                          </div>
+                      </li>
+                   </ul>
+               </div>
+          </div>
+        </div>
+ <!------------------------------------------------------- BOXES ---------------------------------------------------->
+        <div class="box-servicos">
+          <div class="situacao-multas">
+              <div class="box-icon-multa">
+                <i class="material-icons car-icon-multa">directions_car</i>
+              </div>
+              <div class="box-branco-multa">
+                <h3>Situação do veículo/Multas</h3>
+                <p>última solicitação:&nbsp;<span class="multa-data">20/05/2016</span>&nbsp;às&nbsp;<span class="multa-hora">16:00</span></p>
+              </div>
+              <div class="estrela-multa">
+                <input type=button>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                </input>
+              </div>
+              <div class="interrogacao-multa">
+                <input type=button>
+                  <i class="fa fa-question" aria-hidden="true"></i>
+                </input>
+              </div>
+              <div class="solicitar-multa">
+                <h4>Solicitar</h4>
+              </div>
+          </div>
+          <!--div class="via-rg">
+              <div class="icon-rg">
+                  <i class="material-icons">fingerprint</i>
+              </div>
+              <div class="box-branco-via-rg">
+                  <h3>2ª via do RG</h3>
+                  <p>última solicitação:&nbsp;<span class="multa-data">20/05/2016</span>&nbsp;às&nbsp;<span class="multa-hora">16:00</span></p>
+              </div>
+              <div class="estrela-rg">
+                  <input type=button>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  </input>
+              </div>
+              <div class="interrogacaop-rg">
+                  <input type=button>
+                    <i class="fa fa-question" aria-hidden="true"></i>
+                  </input>
+              </div>
+              <div class="solicitar-rg">
+                  <h4>Solicitar</h4>
+              </div>
+            </div>
+            <div class="via-cpf">
+                <div class="icon-cpf">
+                    <i class="material-icons">fingerprint</i>
+                </div>
+                <div class="box-branco-via-cpf">
+                    <h3>2ª via do CPF</h3>
+                    <p>última solicitação:&nbsp;<span class="multa-data">20/05/2016</span>&nbsp;às&nbsp;<span class="multa-hora">16:00</span></p>
+                </div>
+                <div class="estrela-cpf">
+                    <input type=button>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                    </input>
+                </div>
+                <div class="interrogacaop-cpf">
+                    <input type=button>
+                        <i class="fa fa-question" aria-hidden="true"></i>
+                    </input>
+                </div>
+                <div class="solicitar-cpf">
+                    <h4>Solicitar</h4>
+                </div>
+                <div class="atendente">
+                    <div class="icon-atendente">
+                        <i class="material-icons">fingerprint</i>
+                    </div>
+                    <div class="box-branco-atendente">
+                        <h3>Antecedentes criminais</h3>
+                        <p>última solicitação:&nbsp;<span class="multa-data">20/05/2016</span>&nbsp;às&nbsp;<span class="multa-hora">16:00</span></p>
+                    </div>
+                    <div class="estrela-atendente">
+                        <input type=button>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                        </input>
+                    </div>
+                    <div class="interrogacaop-atendente">
+                        <input type=button>
+                            <i class="fa fa-question" aria-hidden="true"></i>
+                        </input>
+                    </div>
+                    <div class="solicitar-atendente">
+                        <h4>Solicitar</h4>
+                    </div>
+
+          </div>
+          <div class="cpf-consult">
+              <div class="icon-cpf-consult">
+                  <i class="material-icons">fingerprint</i>
+              </div>
+              <div class="box-branco-cpf-consult">
+                  <h3>Consulta de sitruação do CPF</h3>
+                  <p>última solicitação:&nbsp;<span class="multa-data">20/05/2016</span>&nbsp;às&nbsp;<span class="multa-hora">16:00</span></p>
+              </div>
+              <div class="estrela-cpf-consult">
+                  <input type=button>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </input>
+              </div>
+              <div class="interrogacao-cpf-consult">
+                  <input type=button>
+                      <i class="fa fa-question" aria-hidden="true"></i>
+                  </input>
+              </div>
+              <div class="solicitar-cpfconsult">
+                  <h4>Solicitar</h4>
+              </div>
+            </div>
+            <div class="via-conta-luz">
+                <div class="icon-via-conta-luz">
+                    <i class="material-icons">attach_money</i>
+                </div>
+                <div class="box-branco-via-conta-luz">
+                    <h3>2ª via conta de luz</h3>
+                    <p>última solicitação:&nbsp;<span class="multa-data">20/05/2016</span>&nbsp;às&nbsp;<span class="multa-hora">16:00</span></p>
+                </div>
+                <div class="estrela-via-conta-luz">
+                    <input type=button>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                    </input>
+                </div>
+                <div class="interrogacaop-via-conta-luz">
+                    <input type=button>
+                        <i class="fa fa-question" aria-hidden="true"></i>
+                    </input>
+                </div>
+                <div class="solicitar-via-conta-luz">
+                    <h4>Solicitar</h4>
+                </div>
+              </div>
+              <div class="via-conta-agua">
+                  <div class="icon-via-conta-agua">
+                      <i class="material-icons">attach_money</i>
+                  </div>
+                  <div class="box-branco-via-conta-agua">
+                      <h3>2ª via conta de água</h3>
+                      <p>última solicitação:&nbsp;<span class="multa-data">20/05/2016</span>&nbsp;às&nbsp;<span class="multa-hora">16:00</span></p>
+                  </div>
+                  <div class="estrela-via-conta-agua">
+                      <input type=button>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                      </input>
+                  </div>
+                  <div class="interrogacaop-via-conta-agua">
+                      <input type=button>
+                          <i class="fa fa-question" aria-hidden="true"></i>
+                      </input>
+                  </div>
+                  <div class="solicitar-via-conta-agua">
+                      <h4>Solicitar</h4>
+                  </div>
+                </div>
+                <div class="sit-eleitoral">
+                    <div class="icon-sit-eleitoral">
+                        <i class="material-icons">fingerprint</i>
+                    </div>
+                    <div class="box-branco-sit-eleitoral">
+                        <h3>Situação eleitoral</h3>
+                        <p>última solicitação:&nbsp;<span class="multa-data">20/05/2016</span>&nbsp;às&nbsp;<span class="multa-hora">16:00</span></p>
+                    </div>
+                    <div class="estrela-sit-eleitoral">
+                        <input type=button>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                        </input>
+                    </div>
+                    <div class="interrogacaop-sit-eleitoral">
+                        <input type=button>
+                            <i class="fa fa-question" aria-hidden="true"></i>
+                        </input>
+                    </div>
+                    <div class="solicitar-sit-eleitoral">
+                        <h4>Solicitar</h4>
+                    </div>
+                  </div>
+                  <div class="boletim-ocorrencia">
+                      <div class="icon-boletim-ocorrencia">
+                          <img src="\imagens\cap-police.png" alt="chapeu de policia" width="2.5%" height="5.5%"/>
+                      </div>
+                      <div class="box-branco-boletim-ocorrencia">
+                          <h3>Boletim de Ocorrência</h3>
+                          <p>última solicitação:&nbsp;<span class="multa-data">20/05/2016</span>&nbsp;às&nbsp;<span class="multa-hora">16:00</span></p>
+                      </div>
+                      <div class="estrela-boletim-ocorrencia">
+                          <input type=button>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                          </input>
+                      </div>
+                      <div class="interrogacaop-boletim-ocorrencia">
+                          <input type=button>
+                              <i class="fa fa-question" aria-hidden="true"></i>
+                          </input>
+                      </div>
+                      <div class="solicitar-boletim-ocorrencia">
+                          <h4>Solicitar</h4>
+                      </div>
+                    </div>
+                    <div class="solic-rg">
+                        <div class="icon-solic-rg">
+                            <i class="material-icons">fingerprint</i>
+                        </div>
+                        <div class="box-branco-solic-rg">
+                            <h3>Solicitar RG</h3>
+                            <p>última solicitação:&nbsp;<span class="multa-data">20/05/2016</span>&nbsp;às&nbsp;<span class="multa-hora">16:00</span></p>
+                        </div>
+                        <div class="estrela-solic-rg">
+                            <input type=button>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                            </input>
+                        </div>
+                        <div class="interrogacaop-solic-rg">
+                            <input type=button>
+                                <i class="fa fa-question" aria-hidden="true"></i>
+                            </input>
+                        </div>
+                        <div class="solicitar-solic-rg">
+                            <h4>Solicitar</h4>
+                        </div>
+                      </div>
+                      <div class="solic-cpf">
+                          <div class="icon-solic-cpf">
+                              <i class="material-icons">fingerprint</i>
+                          </div>
+                          <div class="box-branco-solic-cpf">
+                              <h3>Solicitar CPF</h3>
+                              <p>última solicitação:&nbsp;<span class="multa-data">20/05/2016</span>&nbsp;às&nbsp;<span class="multa-hora">16:00</span></p>
+                          </div>
+                          <div class="estrela-solic-cpf">
+                              <input type=button>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                              </input>
+                          </div>
+                          <div class="interrogacaop-solic-cpf">
+                              <input type=button>
+                                  <i class="fa fa-question" aria-hidden="true"></i>
+                              </input>
+                          </div>
+                          <div class="solicitar-solic-cpf">
+                              <h4>Solicitar</h4>
+                          </div>
+                        </div>
+                        <div class="solic-titulo-eleitor">
+                            <div class="icon-solic-titulo-eleitor">
+                                <i class="material-icons">fingerprint</i>
+                            </div>
+                            <div class="box-branco-solic-titulo-eleitor">
+                                <h3>Solicitar Título de Eleitor</h3>
+                                <p>última solicitação:&nbsp;<span class="multa-data">20/05/2016</span>&nbsp;às&nbsp;<span class="multa-hora">16:00</span></p>
+                            </div>
+                            <div class="estrela-solic-titulo-eleitor">
+                                <input type=button>
+                                  <i class="fa fa-star" aria-hidden="true"></i>
+                                </input>
+                            </div>
+                            <div class="interrogacaop-solic-titulo-eleitor">
+                                <input type=button>
+                                    <i class="fa fa-question" aria-hidden="true"></i>
+                                </input>
+                            </div>
+                            <div class="solicitar-solic-titulo-eleitor">
+                                <h4>Solicitar</h4>
+                            </div>
+                          </div-->
+
+  </body>
+  <!-----------------------------------------------FOOTER--------------------------------------------->
+  <!--footer>
+    <div class="copy">
+      <h6>2016</h6>
+      <i class="fa fa-copyright" aria-hidden="true"></i>
+      <h6>GPM - Governo na Palma da Mão</h6>
+    </div>
+  </footer-->
+</html>
