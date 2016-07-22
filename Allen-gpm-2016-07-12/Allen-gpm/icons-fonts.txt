@@ -1,0 +1,33 @@
+<-----------------------barra branca---------------------------------------->
+sino de notificações:
+    <i class="fa fa-bell "></i>
+circulo com quantidade de notificações não visualizadas:
+    <i class="fa fa-circle" aria-hidden="true"></i>
+engrenagem da configuração:
+    <i class="fa fa-cog" aria-hidden="true"></i>
+seta pra baixo:
+    <i class="fa fa-caret-down" aria-hidden="true"></i>
+<--------------------------navegador azul------------------------------------>
+bloco quadriculado:
+    <i class="fa fa-th"></i>
+radar:
+    <i class="material-icons">track_changes</i>
+i de informação:
+    <i class="material-icons inl-blc">info</i>
+<---------------------------bloco cinza---------------------------------------->
+lupa de busca:
+     <i class="fa fa-search" aria-hidden="true" ></i>
+carro:
+     <i class="fa fa-caret-down" aria-hidden="true"></i>
+estrela:
+     <i class="fa fa-star" aria-hidden="true"></i>
+interrogação:
+     <i class="fa fa-question" aria-hidden="true"></i>
+<-------------------------------boxes-------------------------------------------------->
+finger digital:
+     <i class="material-icons">fingerprint</i>
+cifra:
+     <i class="material-icons">attach_money</i>
+cap policial:
+    <img src="\imagens\cap-police.png" alt="chapeu de policia" width="2.5%" height="5.5%"/>
+<-------------------------------------------------------------------------------------->
