@@ -1,0 +1,369 @@
+html{
+  background-color: #EBEFF2;
+}
+body{
+  width:100%;
+  height:inherit ;
+  border:0px;
+  margin:0px;
+  padding:0px;
+}
+.background-page{
+  background-color: #EBEFF2 ;
+}
+
+.inl-blc{
+  display: inline-block;
+}
+/*************************************BARRA BRANCA************************************/
+.barra-branca {
+  background-color: #ffffff;
+  width: 100%;
+  height: 68px;
+  padding-top: 20px;
+}
+.cabecalho-branco{
+  width: 100%;
+  background: #ffffff;
+  height: 60px;
+  margin-top: 20px;
+}
+.logo{
+  display: inline-block;
+  margin-left: 90px;
+}
+ul{
+  list-style: none;
+
+}
+.ul-blue-bar{
+  margin-bottom: 0px;
+}
+.not-set-perf .fa-bell, .fa-cog, .fa-caret-down{
+  color: #697a85;
+}
+.not-set-perf{
+  display: inline-block;
+  float: right;
+  margin-right: 90px;
+}
+/**** NOTIFICAÇÕES ********************************************************/
+.notificacao{
+  display: inline-block;
+  margin-right: 15px;
+  padding-right: 30px;
+  height: 30px;
+  padding-top:5px;
+  vertical-align: bottom;
+  position: relative;
+}
+.bell-not{
+  display: inline-block;
+  margin-top: 6px;
+}
+.not-icon-central{
+  position: relative;
+}
+
+.icon-not{
+  display: inline-block;
+
+}
+.icon-not:hover{
+  color: #0092F7;
+}
+.not-recentes{
+  display: block;
+  position: absolute;
+  top: 4px;
+  left: 8px;
+}
+.not-recentes > ul{
+  box-shadow: 12px 6px 12px 6px #F2F2F2 ;
+  border:1px solid;
+  text-align: left;
+  padding: 0.5em;
+  display: none;
+}
+.not-recentes > ul > li{
+  display: block;
+}
+/*.icon-not:hover ~ .not-recentes > ul {
+  display: block;*/
+}
+.quant-not-ball{
+  font-size: 12px;
+  position: absolute;
+}
+.fa-circle{
+  margin-top: 1px;
+  color:#FF033D;
+}
+
+/******CONFIGURAÇÃO ****************************************************************/
+.config{
+  display: inline-block;
+  vertical-align: bottom;
+  height: 30px;
+  font-size: 20px;
+  border-right: 1px solid ;
+  border-color: #bbc3c7;
+}
+.icon-config{
+  display: inline-block;
+  margin-right: 24px;
+  padding-top: 6px;
+  font-size: 20px;
+
+}
+.perfil{
+  display: inline-block;
+  float: right;
+}
+.pic-user{
+  display: inline-block;
+  /*margin-left: 162px;
+  margin-right: 18px;*/
+}
+.imagem{
+  display: inline-block;
+  text-align: right;
+  margin-right: 9px;
+  margin-left: 20px;
+
+}
+.imagem > img{
+  border: 1px solid;
+  border-radius: 4em;
+  border-color: #A8A8A8;
+
+}
+.seta{
+  display: inline-block;
+  text-align: right;
+  /*margin-right: 1.3em;
+  margin-left: 9px;*/
+  font-size: 20px;
+  vertical-align: super;
+}
+
+/********************************************************************** BARRA AZUL**********************************************************************************/
+
+.navegador-azul{
+  background-color: #4a90e2;
+  width: 100%;
+  padding-top: 1px;
+}
+.text{
+  color: #ffffff;
+  font-family: "Segoe UI";
+  font-size: 16px;
+}
+.barra-navegador{
+  display: block;
+}
+.barra-navegador nav .fa-th, .material-icons {
+  display: inline-block;
+  color: #ffffff;
+}
+.fa-th{
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.material-icons{
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 20px;
+  vertical-align: sub;
+}
+.li-positio{
+  margin-right: 30px;
+}
+
+.apps{
+  padding-bottom: 3px;
+
+}
+
+.apps:hover{
+  border-bottom: 3px solid #ffffff;
+  padding-bottom: 0px;
+}
+
+/***********************************************BLOCO AZUL CLARO*****************************************/
+
+.topo-busca-config{
+  background-color:#e1e8ef;
+  display: inline-block;
+  width: 100%;
+
+
+}
+.h2-services{
+  display: inline-block;
+  margin-top: 20px;
+  padding-left: 1px;
+  margin-left: 42px;
+}
+.button-config{
+  display: inline-block;
+  float: right;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+
+}
+
+.button-config > button{
+  background: linear-gradient(to bottom right, #71b6f9,#74BAFF );/* ***** GRADIENTE ****/
+  box-shadow: 0px 0px 1px 0px;
+  border-radius: 6px 6px 6px 6px;
+  height: 36px;
+  border-color: #71b6f9;
+  border:none;
+}
+.button-config > button > span{
+  color: #ffffff;
+}
+.busca-services{
+  margin-left: 42px;
+  margin-top: 15px;
+  display: inline-block;
+
+}
+.busca-services > form{
+  border-bottom: 1px solid;
+  border-color: #bbc3c7;
+}
+.busca-services > form > input{
+  outline: none;
+  border-bottom: 1px solid #EBEFF2 ;
+  border-right: 0px;
+  border-left: 0px;
+  border-top: 0px;
+  background-color: rgba(0,0,0,0);
+}
+.shearch-bar{
+  /*display: inline-block;
+  margin-top: 15px;
+  margin-left: 42px;*/
+
+}
+.categorias-boxes-superior{
+  display: inline-block;
+  width: 100%;
+  margin-top: 25px;
+}
+.blue-ul{
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  float: right;
+}
+
+.fa-cog-button{
+  color: #ffffff;
+}
+/*.button-config span {
+  color: #ffffff;
+}*/
+
+.blue-div-ul{
+  display: inline-block;
+  float: right;
+
+}
+.blue-ul > li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.blue-ul > li > h5, .seta-button {
+  display: inline-block;
+  font-family:SegoeUI;
+  font-size:14px;
+  color:#505458;
+  text-align:left;
+}
+.seta-button:active{
+  background-color:#ffffff ;
+}
+
+.box-links-tudo-ul{
+  border: 0px solid;
+  box-shadow: 1px 1px 4px;
+  padding-left: 20px;
+  padding-top: 10;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  position: relative;
+
+}
+
+.box-links-tudo-li{
+  text-align: left;
+  padding-left: 5px;
+  color: #bbc3c7
+}
+.box-links-tudo-li:hover{
+  color: #505458;
+}
+.box-tudo{
+  position: absolute;
+  back-ground-color: #ffffff;
+  /*display:none;*/
+}
+/***********************************************BOXES******************************************************************/
+.box-servico{
+  width: 15%;
+  height: 35%;
+  margin-left: 35px;
+}
+.box-icon{
+  width: 100%;
+  height: 60%;
+  text-align: center;
+  background-color: #586775;
+}
+.img-icon {
+  font-size: 6em !important;
+  margin-top: 35px;
+
+}
+.box-branco{
+  background-color: #ffffff;
+  width: 100%;
+  padding-top:1em;
+}
+.box-branco > h3{
+  text-align: center ;
+  margin:0;
+  font-size: 16px;
+  font-size: 1rem;
+}
+
+.box-branco > p{
+  text-align: center;
+  font-size: 8px;
+  font-size: 0.8rem;
+}
+.estrela-button{
+  display: inline-block;
+
+}
+.estrela-button > input{
+  margin-left: 11px;
+  position: absolute;
+}
+.star-box{
+  position: relative;
+  top: 3px;
+  right: 1px;
+  font-size: 0.8rem;
+
+}
+.button-quest{
+
+}
