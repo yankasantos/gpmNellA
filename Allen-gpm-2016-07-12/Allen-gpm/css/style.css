@@ -1,5 +1,5 @@
 html{
-  background-color: #EBEFF2;
+  background-color: #e1e8ef;
 }
 body{
   width:100%;
@@ -9,7 +9,7 @@ body{
   padding:0px;
 }
 .background-page{
-  background-color: #EBEFF2 ;
+  background-color: ##e1e8ef ;
 }
 
 .inl-blc{
@@ -312,30 +312,37 @@ ul{
 }
 .box-tudo{
   position: absolute;
-  back-ground-color: #ffffff;
+  background-color: #ffffff;
   /*display:none;*/
 }
 /***********************************************BOXES******************************************************************/
 .box-servico{
-  width: 15%;
-  height: 35%;
-  margin-left: 35px;
+  width: 20%;
+  height: 45%;
+  margin-left: 2.5rem;
+  position: static;
 }
 .box-icon{
   width: 100%;
-  height: 60%;
+  height: 50%;
   text-align: center;
   background-color: #586775;
 }
+
 .img-icon {
   font-size: 6em !important;
-  margin-top: 35px;
+  margin-top: 14%;
+  color: #bbc3c7!important;
 
+}
+.box-icon:hover{
+  background: linear-gradient(to right, #414C56,#4A5156);
 }
 .box-branco{
   background-color: #ffffff;
   width: 100%;
   padding-top:1em;
+  height: 120px;
 }
 .box-branco > h3{
   text-align: center ;
@@ -348,12 +355,22 @@ ul{
   text-align: center;
   font-size: 8px;
   font-size: 0.8rem;
+  margin-bottom: 10px;
+  margin-top: 0px;
+
 }
 .estrela-button{
   display: inline-block;
-
+  position: relative;
+  float: left;
+  dispaly: inline-block;
+  margin-left: 21px;
 }
 .estrela-button > input{
+  width: 2em;
+  height: 2em;
+}
+/*.estrela-button > input{
   margin-left: 11px;
   position: absolute;
 }
@@ -362,8 +379,61 @@ ul{
   top: 3px;
   right: 1px;
   font-size: 0.8rem;
-
+}*/
+.estrela{
+  position:absolute;
+  top: 3px;
+  top: 0.35rem;
+  left:5px;
+  left:0.35rem;
+  text-align: center;
+}
+.estrela-button:hover{
+  color: #E3AC22;
 }
 .button-quest{
-
+  position: relative;
+  float: right;
+  display: inline-block;
+  margin-right: 25px;
 }
+.button-quest > input{
+  width: 2em;
+  height: 2em;
+}
+.interrogacao{
+  position: absolute;
+  top: 5px;
+  top:0.35rem;
+  left: 8px;
+  left:.5rem;
+  text-align: center;
+}
+.button-quest:hover{
+  color: #3F88D6;
+}
+.solicitar {
+  border: 1px solid #ffffff;
+  border-radius: 10px,10px,10px,10px;
+  position: relative;
+  display: flex;
+  bottom:67%;
+  width: 35%;
+  height:10%;
+  left:30%;
+  margin-right: 5.5em;
+}
+
+.solicitar > h4{
+  position: absolute;
+  margin-top: .5rem;
+  color: #FFFFFF;
+  padding-left: 1.6em;
+  padding-right: 1em;
+  font-family: "Segoe UI";
+  font-size: 14px;
+}
+/*.solicitar > input{
+  width: 35%;
+  height: 10%;
+}*/
