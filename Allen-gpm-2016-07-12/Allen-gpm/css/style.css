@@ -413,8 +413,8 @@ ul{
   color: #3F88D6;
 }
 .solicitar {
-  border: 1px solid #ffffff;
-  border-radius: 10px,10px,10px,10px;
+  /*border: 1px solid #ffffff;
+  border-radius: 10px,10px,10px,10px;*/
   position: relative;
   display: flex;
   bottom:67%;
@@ -437,3 +437,17 @@ ul{
   width: 35%;
   height: 10%;
 }*/
+.border-radios-caixa{
+  border-radios: 6px 6px 0px 0px;
+}
+/*.border-radios-branco{
+  border-radios: 0px 0px 6px 6px;
+}
+.border-radios-solicitar{
+  border-radios: 6px 6px 0px 0px;
+}*/
+.border-radios-solicitar > input{
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  opacity: 0.6;
+}
