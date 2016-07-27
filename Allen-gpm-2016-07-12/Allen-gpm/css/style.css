@@ -321,6 +321,7 @@ ul{
   height: 45%;
   margin-left: 2.5rem;
   position: static;
+  display: inline-block;
 }
 .box-icon{
   width: 100%;
