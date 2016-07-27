@@ -333,17 +333,28 @@ ul{
   font-size: 6em !important;
   margin-top: 14%;
   color: #bbc3c7!important;
-
 }
+
 .box-icon:hover{
   background: linear-gradient(to right, #414C56,#4A5156);
 }
+
+.box-icon:hover > .img-icon{
+  /*background: linear-gradient(to right, #414C56,#4A5156);*/
+  opacity: 0.3;
+}
+
+.box-icon:hover  .solicitar{
+  visibility: visible;
+}
+
 .box-branco{
   background-color: #ffffff;
   width: 100%;
   padding-top:1em;
   height: 120px;
 }
+
 .box-branco > h3{
   text-align: center ;
   margin:0;
@@ -422,16 +433,26 @@ ul{
   height:10%;
   left:30%;
   margin-right: 5.5em;
+  visibility: hidden;
 }
 
 .solicitar > h4{
   position: absolute;
-  margin-top: .5rem;
+  margin-top: .3rem;
   color: #FFFFFF;
   padding-left: 1.6em;
   padding-right: 1em;
   font-family: "Segoe UI";
   font-size: 14px;
+}
+
+
+
+.position{
+  float: left;
+  left: 0em;
+  top: 2.7em;
+  bottom: 5em;
 }
 /*.solicitar > input{
   width: 35%;
@@ -450,4 +471,8 @@ ul{
   width: 100%;
   background: rgba(255, 255, 255, 0.2);
   opacity: 0.6;
+  margin-top: 2.8em;
+  height: 2.5em;
+  border-radius:6px;
+
 }
