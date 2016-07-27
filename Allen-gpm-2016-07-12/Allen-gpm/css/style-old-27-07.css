@@ -1,0 +1,479 @@
+html{
+  background-color: #e1e8ef;
+}
+body{
+  width:100%;
+  height:inherit ;
+  border:0px;
+  margin:0px;
+  padding:0px;
+}
+.background-page{
+  background-color: ##e1e8ef ;
+}
+
+.inl-blc{
+  display: inline-block;
+}
+/*************************************BARRA BRANCA************************************/
+.barra-branca {
+  background-color: #ffffff;
+  width: 100%;
+  height: 68px;
+  padding-top: 20px;
+}
+.cabecalho-branco{
+  width: 100%;
+  background: #ffffff;
+  height: 60px;
+  margin-top: 20px;
+}
+.logo{
+  display: inline-block;
+  margin-left: 90px;
+}
+ul{
+  list-style: none;
+
+}
+.ul-blue-bar{
+  margin-bottom: 0px;
+}
+.not-set-perf .fa-bell, .fa-cog, .fa-caret-down{
+  color: #697a85;
+}
+.not-set-perf{
+  display: inline-block;
+  float: right;
+  margin-right: 90px;
+}
+/**** NOTIFICAÇÕES ********************************************************/
+.notificacao{
+  display: inline-block;
+  margin-right: 15px;
+  padding-right: 30px;
+  height: 30px;
+  padding-top:5px;
+  vertical-align: bottom;
+  position: relative;
+}
+.bell-not{
+  display: inline-block;
+  margin-top: 6px;
+}
+.not-icon-central{
+  position: relative;
+}
+
+.icon-not{
+  display: inline-block;
+
+}
+.icon-not:hover{
+  color: #0092F7;
+}
+.not-recentes{
+  display: block;
+  position: absolute;
+  top: 4px;
+  left: 8px;
+}
+.not-recentes > ul{
+  box-shadow: 12px 6px 12px 6px #F2F2F2 ;
+  border:1px solid;
+  text-align: left;
+  padding: 0.5em;
+  display: none;
+}
+.not-recentes > ul > li{
+  display: block;
+}
+/*.icon-not:hover ~ .not-recentes > ul {
+  display: block;*/
+}
+.quant-not-ball{
+  font-size: 12px;
+  position: absolute;
+}
+.fa-circle{
+  margin-top: 1px;
+  color:#FF033D;
+}
+
+/******CONFIGURAÇÃO ****************************************************************/
+.config{
+  display: inline-block;
+  vertical-align: bottom;
+  height: 30px;
+  font-size: 20px;
+  border-right: 1px solid ;
+  border-color: #bbc3c7;
+}
+.icon-config{
+  display: inline-block;
+  margin-right: 24px;
+  padding-top: 6px;
+  font-size: 20px;
+
+}
+.perfil{
+  display: inline-block;
+  float: right;
+}
+.pic-user{
+  display: inline-block;
+  /*margin-left: 162px;
+  margin-right: 18px;*/
+}
+.imagem{
+  display: inline-block;
+  text-align: right;
+  margin-right: 9px;
+  margin-left: 20px;
+
+}
+.imagem > img{
+  border: 1px solid;
+  border-radius: 4em;
+  border-color: #A8A8A8;
+
+}
+.seta{
+  display: inline-block;
+  text-align: right;
+  /*margin-right: 1.3em;
+  margin-left: 9px;*/
+  font-size: 20px;
+  vertical-align: super;
+}
+
+/********************************************************************** BARRA AZUL**********************************************************************************/
+
+.navegador-azul{
+  background-color: #4a90e2;
+  width: 100%;
+  padding-top: 1px;
+}
+.text{
+  color: #ffffff;
+  font-family: "Segoe UI";
+  font-size: 16px;
+}
+.barra-navegador{
+  display: block;
+}
+.barra-navegador nav .fa-th, .material-icons {
+  display: inline-block;
+  color: #ffffff;
+}
+.fa-th{
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.material-icons{
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 20px;
+  vertical-align: sub;
+}
+.li-positio{
+  margin-right: 30px;
+}
+
+.apps{
+  padding-bottom: 3px;
+
+}
+
+.apps:hover{
+  border-bottom: 3px solid #ffffff;
+  padding-bottom: 0px;
+}
+
+/***********************************************BLOCO AZUL CLARO*****************************************/
+
+.topo-busca-config{
+  background-color:#e1e8ef;
+  display: inline-block;
+  width: 100%;
+
+
+}
+.h2-services{
+  display: inline-block;
+  margin-top: 20px;
+  padding-left: 1px;
+  margin-left: 42px;
+}
+.button-config{
+  display: inline-block;
+  float: right;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+
+}
+
+.button-config > button{
+  background: linear-gradient(to bottom right, #71b6f9,#74BAFF );/* ***** GRADIENTE ****/
+  box-shadow: 0px 0px 1px 0px;
+  border-radius: 6px 6px 6px 6px;
+  height: 36px;
+  border-color: #71b6f9;
+  border:none;
+}
+.button-config > button > span{
+  color: #ffffff;
+}
+.busca-services{
+  margin-left: 42px;
+  margin-top: 15px;
+  display: inline-block;
+
+}
+.busca-services > form{
+  border-bottom: 1px solid;
+  border-color: #bbc3c7;
+}
+.busca-services > form > input{
+  outline: none;
+  border-bottom: 1px solid #EBEFF2 ;
+  border-right: 0px;
+  border-left: 0px;
+  border-top: 0px;
+  background-color: rgba(0,0,0,0);
+}
+.shearch-bar{
+  /*display: inline-block;
+  margin-top: 15px;
+  margin-left: 42px;*/
+
+}
+.categorias-boxes-superior{
+  display: inline-block;
+  width: 100%;
+  margin-top: 25px;
+}
+.blue-ul{
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  float: right;
+}
+
+.fa-cog-button{
+  color: #ffffff;
+}
+/*.button-config span {
+  color: #ffffff;
+}*/
+
+.blue-div-ul{
+  display: inline-block;
+  float: right;
+
+}
+.blue-ul > li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.blue-ul > li > h5, .seta-button {
+  display: inline-block;
+  font-family:SegoeUI;
+  font-size:14px;
+  color:#505458;
+  text-align:left;
+}
+.seta-button:active{
+  background-color:#ffffff ;
+}
+
+.box-links-tudo-ul{
+  border: 0px solid;
+  box-shadow: 1px 1px 4px;
+  padding-left: 20px;
+  padding-top: 10;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  position: relative;
+
+}
+
+.box-links-tudo-li{
+  text-align: left;
+  padding-left: 5px;
+  color: #bbc3c7
+}
+.box-links-tudo-li:hover{
+  color: #505458;
+}
+.box-tudo{
+  position: absolute;
+  background-color: #ffffff;
+  /*display:none;*/
+}
+/***********************************************BOXES******************************************************************/
+.box-servico{
+  width: 20%;
+  height: 45%;
+  margin-left: 2.5rem;
+  position: static;
+  display: inline-block;
+}
+.box-icon{
+  width: 100%;
+  height: 50%;
+  text-align: center;
+  background-color: #586775;
+}
+
+.img-icon {
+  font-size: 6em !important;
+  margin-top: 14%;
+  color: #bbc3c7!important;
+}
+
+.box-icon:hover{
+  background: linear-gradient(to right, #414C56,#4A5156);
+}
+
+.box-icon:hover > .img-icon{
+  /*background: linear-gradient(to right, #414C56,#4A5156);*/
+  opacity: 0.3;
+}
+
+.box-icon:hover  .solicitar{
+  visibility: visible;
+}
+
+.box-branco{
+  background-color: #ffffff;
+  width: 100%;
+  padding-top:1em;
+  height: 120px;
+}
+
+.box-branco > h3{
+  text-align: center ;
+  margin:0;
+  font-size: 16px;
+  font-size: 1rem;
+}
+
+.box-branco > p{
+  text-align: center;
+  font-size: 8px;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+  margin-top: 0px;
+
+}
+.estrela-button{
+  display: inline-block;
+  position: relative;
+  float: left;
+  dispaly: inline-block;
+  margin-left: 21px;
+}
+.estrela-button > input{
+  width: 2em;
+  height: 2em;
+}
+/*.estrela-button > input{
+  margin-left: 11px;
+  position: absolute;
+}
+.star-box{
+  position: relative;
+  top: 3px;
+  right: 1px;
+  font-size: 0.8rem;
+}*/
+.estrela{
+  position:absolute;
+  top: 3px;
+  top: 0.35rem;
+  left:5px;
+  left:0.35rem;
+  text-align: center;
+}
+.estrela-button:hover{
+  color: #E3AC22;
+}
+.button-quest{
+  position: relative;
+  float: right;
+  display: inline-block;
+  margin-right: 25px;
+}
+.button-quest > input{
+  width: 2em;
+  height: 2em;
+}
+.interrogacao{
+  position: absolute;
+  top: 5px;
+  top:0.35rem;
+  left: 8px;
+  left:.5rem;
+  text-align: center;
+}
+.button-quest:hover{
+  color: #3F88D6;
+}
+.solicitar {
+  /*border: 1px solid #ffffff;
+  border-radius: 10px,10px,10px,10px;*/
+  position: relative;
+  display: flex;
+  bottom:67%;
+  width: 35%;
+  height:10%;
+  left:30%;
+  margin-right: 5.5em;
+  visibility: hidden;
+}
+
+.solicitar > h4{
+  position: absolute;
+  margin-top: .3rem;
+  color: #FFFFFF;
+  padding-left: 1.6em;
+  padding-right: 1em;
+  font-family: "Segoe UI";
+  font-size: 14px;
+}
+
+
+
+.position{
+  float: left;
+  left: 0em;
+  top: 2.7em;
+  bottom: 5em;
+}
+/*.solicitar > input{
+  width: 35%;
+  height: 10%;
+}*/
+.border-radios-caixa{
+  border-radios: 6px 6px 0px 0px;
+}
+/*.border-radios-branco{
+  border-radios: 0px 0px 6px 6px;
+}
+.border-radios-solicitar{
+  border-radios: 6px 6px 0px 0px;
+}*/
+.border-radios-solicitar > input{
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  opacity: 0.6;
+  margin-top: 2.8em;
+  height: 2.5em;
+  border-radius:6px;
+
+}
