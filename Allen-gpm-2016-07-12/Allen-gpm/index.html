@@ -1,5 +1,11 @@
 <!Doctype>
 <html lang="pt-br" xmlns:border-radius="http://www.w3.org/1999/xhtml">
+<!-----------------------------DIREITOS DO CÓDIGO --------------------------------------------------------------------------------------------
+    Autor:Yanka Santos;
+    Projeto: GPM - Governo Na Palma Da Mão;
+    Empresa: Allen Informática;
+    Detalhe: Página constrida durante processo de nivelamento;
+-------------------------------------------------------------------------------------------------------------------------------------------->
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
@@ -23,32 +29,33 @@
                       <div class="notificacao">
                           <div class="bell-not not-icon-central"> <!-- Icone de Notificação -->
                               <a class="icon-not"  alt="icone em forma de sino representando notifica&ccedil;&otilde;es">
-                                  <i class="fa fa-bell ">
-                                   </i>
+                                  <i class="fa fa-bell "></i>
                                </a>
                            </div>
                            <div class="not-recentes">
                                <i class="fa fa-circle quant-not-ball" aria-hidden="true"></i><!--Bollinha com a quantidade de notificação à ser visualizada -->
-                               <ul class="box-notificacoes">
+                               <div class="box-tudo-item">
+                                   <ul class="box-notificacoes box-links-tudo-ul">
                                    <a alt="Direciona para a notifica&ccedil;&atilde;"><li>Última notificação</li></a>
                                    <a alt="Direciona para a notifica&ccedil;&atilde;"><li>Atualização</li></a>
                                    <a alt="Direciona para a notifica&ccedil;&atilde;"><li>Novas Notícias do governo da Bahia</li></a>
-                                </ul>
+                                   </ul>
+                               </div>
                            </div>
                         </div><!--fim da div notificacao -->
        <!-------------------------- ÁREA DE CONFIGURAÇÃO --------------------------------------------------------------------->
                       <div class="config">
                           <div class="icon-config">
-                              <i class="fa fa-cog" aria-hidden="true"></i>
+                              <a><i class="fa fa-cog" aria-hidden="true"></i></a>
                           </div>
                           <!--div class="barra"></div-->
-                          <div class="box-config">
-                              <!--ul>
-                                 <li>Geral</li>
-                                 <li>Conta</li>
-                                 <li>Segurança</li>
-                                 <li>Privacidade</li>
-                              </ul-->
+                          <div class="box-barra-blue box-tudo-item">
+                              <ul class="box-links-tudo-ul">
+                                 <li class="box-links-tudo-li">Geral</li>
+                                 <li class="box-links-tudo-li">Conta</li>
+                                 <li class="box-links-tudo-li">Segurança</li>
+                                 <li class="box-links-tudo-li">Privacidade</li>
+                              </ul>
                           </div>
                       </div><!--fim da div config -->
        <!-------------------- ÁREA PERFIL ---------------------------------------------------------->
@@ -60,13 +67,13 @@
 
                           </div>
                           <div class="seta">
-                              <i class="fa fa-caret-down" aria-hidden="true"></i>
+                              <a><i class="fa fa-caret-down" aria-hidden="true"></i></a>
                           </div>
-                          <div class="box-itens-perfil">
-                              <!--ul>
+                          <div class="box-itens-perfil box-tudo-item">
+                              <ul>
                                   <li>Perfil</li>
                                   <li>Editar Conta</li>
-                              </ul-->
+                              </ul>
                           </div>
                       </div><!--fim da div perfil -->
                    </div><!-- fim da div not-set-perf -->
@@ -77,24 +84,24 @@
             <div class="barra-navegador">
               <nav><!-- os icons não seram imagens, e sim font-->
                 <ul class="ul-blue-bar">
-                  <li class="li-positio inl-blc apps">
+                  <a href=""><li class="li-positio inl-blc apps">
                       <i class="fa fa-th inl-blc"></i>
                       <div class="servicos inl-blc">
                         <p class="text">Serviços</p>
                       </div>
-                  </li>
-                    <li class="li-positio inl-blc apps">
+                  </li></a>
+                    <a href="/acompanhamento"><li class="li-positio inl-blc apps">
                         <i class="material-icons inl-blc">track_changes</i>
                           <div class="acompanhemento inl-blc">
                             <p class="text">Acompanhamento</p>
                           </div>
-                  </li>
-                    <li class="li-positio inl-blc apps">
+                  </li></a>
+                    <!--a href="/suporte"><li class="li-positio inl-blc apps">
                         <i class="material-icons inl-blc">info</i>
                         <div class="suporte inl-blc">
                             <p class="text">Suporte/Ajuda</p>
                         </div>
-                    </li>
+                    </li></a-->
                 </ul>
               </nav>
             </div>
@@ -111,10 +118,10 @@
           </form>
           <div class="categorias-boxes-superior">
               <div class="busca-services">
-                  <form class="shearch-bar" shearch-bar>
+                  <a href=""><form class="shearch-bar" shearch-bar>
                       <i class="fa fa-search" aria-hidden="true" ></i>
-                      <input id="busca" type="search" nome="busca" value="Filtrar serviços por pesquisa " ></input>
-                  </form>
+                      <input id="busca" type="search" nome="busca" value="Filtrar serviços por pesquisa "></input>
+                  </form></a>
                </div>
               <div class="blue-div-ul">
                   <ul class="blue-ul">
@@ -124,7 +131,7 @@
                               <i class="fa fa-caret-down" aria-hidden="true"></i>
                           </form>
 
-                          <div class="box-tudo">
+                          <div class="box-tudo-item">
                               <ul class="box-links-tudo-ul">
                                 <li class="box-links-tudo-li">- Escolha uma opção -</li>
                                 <li class="box-links-tudo-li">Transporte</li>
@@ -190,7 +197,7 @@
                 </div>
               </div>
               <div class="box-branco border-radios-branco">
-                <h3>Situação do veículo/Multas</h3>
+                <a href=""><h3>Situação do veículo/Multas</h3></a>
                 <p class="text-p"><br>última solicitação:</br><span class="multa-data">20/05/2016</span>&nbsp;às&nbsp;<span class="multa-hora">16:00</span></p>
                 <div class="estrela-button">
                       <input type=button>
@@ -216,7 +223,7 @@
                     </div>
                 </div>
                 <div class="box-branco border-radios-branco">
-                    <h3>2ª via do RG</h3>
+                    <a href=""><h3>2ª via do RG</h3></a>
                     <p class="text-p"><br>última solicitação:</br><span class="multa-data">20/05/2016</span>&nbsp;às&nbsp;<span class="multa-hora">16:00</span></p>
                     <div class="estrela-button">
                         <input type=button>
@@ -242,7 +249,7 @@
                     </div>
                 </div>
                 <div class="box-branco border-radios-branco">
-                    <h3>2ª via do CPF</h3>
+                    <a href=""><h3>2ª via do CPF</h3></a>
                     <p class="text-p"><br>última solicitação:</br><span class="multa-data">20/05/2016</span>&nbsp;às&nbsp;<span class="multa-hora">16:00</span></p>
                     <div class="estrela-button">
                         <input type=button>
@@ -268,7 +275,7 @@
                     </div>
                 </div>
                 <div class="box-branco border-radios-branco">
-                    <h3>Antecedentes criminais</h3>
+                    <a href=""><h3>Antecedentes criminais</h3></a>
                     <p class="text-p"><br>última solicitação:</br><span class="multa-data">20/05/2016</span>&nbsp;às&nbsp;<span class="multa-hora">16:00</span></p>
                     <div class="estrela-button">
                         <input type=button>
@@ -294,7 +301,7 @@
                     </div>
                 </div>
                 <div class="box-branco border-radios-branco">
-                    <h3>Consulta de situação do CPF</h3>
+                    <a href=""><h3>Consulta de situação do CPF</h3></a>
                     <p class="text-p"><br>última solicitação:</br><span class="multa-data">20/05/2016</span>&nbsp;às&nbsp;<span class="multa-hora">16:00</span></p>
                     <div class="estrela-button">
                         <input type=button>
@@ -320,7 +327,7 @@
                     </div>
                 </div>
                 <div class="box-branco border-radios-branco">
-                    <h3>2ª via conta de luz</h3>
+                    <a href=""><h3>2ª via conta de luz</h3></a>
                     <p class="text-p"><br>última solicitação:</br><span class="multa-data">20/05/2016</span>&nbsp;às&nbsp;<span class="multa-hora">16:00</span></p>
                     <div class="estrela-button">
                         <input type=button>
@@ -346,7 +353,7 @@
                     </div>
                 </div>
                 <div class="box-branco border-radios-branco">
-                    <h3>2ª via conta de água</h3>
+                    <a href=""><h3>2ª via conta de água</h3></a>
                     <p class="text-p"><br>última solicitação:</br><span class="multa-data">20/05/2016</span>&nbsp;às&nbsp;<span class="multa-hora">16:00</span></p>
                     <div class="estrela-button">
                         <input type=button>
@@ -372,7 +379,7 @@
                     </div>
                 </div>
                 <div class="box-branco border-radios-branco">
-                    <h3>Situação eleitoral</h3>
+                    <a href=""><h3>Situação eleitoral</h3></a>
                     <p class="text-p"><br>última solicitação:</br><span class="multa-data">20/05/2016</span>&nbsp;às&nbsp;<span class="multa-hora">16:00</span></p>
                     <div class="estrela-button">
                         <input type=button>
@@ -398,7 +405,7 @@
                     </div>
                 </div>
                 <div class="box-branco border-radios-branco">
-                    <h3>Boletim de Ocorrência</h3>
+                    <a href=""><h3>Boletim de Ocorrência</h3></a>
                     <p class="text-p"><br>última solicitação:</br><span class="multa-data">20/05/2016</span>&nbsp;às&nbsp;<span class="multa-hora">16:00</span></p>
                     <div class="estrela-button">
                         <input type=button>
@@ -424,7 +431,7 @@
                     </div>
                 </div>
                 <div class="box-branco border-radios-branco">
-                    <h3>Solicitar RG</h3>
+                    <a href=""><h3>Solicitar RG</h3></a>
                     <p class="text-p"><br>última solicitação:</br><span class="multa-data">20/05/2016</span>&nbsp;às&nbsp;<span class="multa-hora">16:00</span></p>
                     <div class="estrela-button">
                         <input type=button>
@@ -450,7 +457,7 @@
                     </div>
                 </div>
                 <div class="box-branco border-radios-branco">
-                    <h3>Solicitar CPF</h3>
+                    <a href=""><h3>Solicitar CPF</h3></a>
                     <p class="text-p"><br>última solicitação:</br><span class="multa-data">20/05/2016</span>&nbsp;às&nbsp;<span class="multa-hora">16:00</span></p>
                     <div class="estrela-button">
                         <input type=button>
@@ -476,7 +483,7 @@
                     </div>
                 </div>
                 <div class="box-branco border-radios-branco">
-                    <h3>Solicitar Título de Eleitor</h3>
+                    <a href=""><h3>Solicitar Título de Eleitor</h3></a>
                     <p class="text-p"><br>última solicitação:</br><span class="multa-data">20/05/2016</span>&nbsp;às&nbsp;<span class="multa-hora">16:00</span></p>
                     <div class="estrela-button">
                         <input type=button>
