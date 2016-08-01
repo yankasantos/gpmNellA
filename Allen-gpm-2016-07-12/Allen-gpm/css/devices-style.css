@@ -1,0 +1,18 @@
+/**********DEVICES MENORES**********/
+@media (min-width: 800px) {
+
+    .busca-services > form{
+        margin-top: 1px;
+    }
+    .busca-services > form > input{
+       width: 6rem;
+   }
+    .box-servico{
+        width: 20%;
+        height: 20%;
+    }
+    .box-branco{
+
+    }
+
+}
