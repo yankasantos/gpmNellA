@@ -181,9 +181,11 @@ ul{
   font-size: 20px;
   vertical-align: sub;
 }
-.li-positio{
+.li-position{
   margin-right: 30px;
+  top: 10px
 }
+
 
 .apps{
   padding-bottom: 3px;
@@ -239,7 +241,7 @@ ul{
   border-color: #bbc3c7;
 }
 .busca-services > form > input{
-  outline: none;
+  outline: #337ab7;
   border-bottom: 1px solid #EBEFF2 ;
   border-right: 0px;
   border-left: 0px;
@@ -247,7 +249,9 @@ ul{
   background-color: rgba(0,0,0,0);
   width: 16rem;
 }
-.shearch-bar{
+.shearch-bar > button{
+  border: none;
+  background: transparent;
   /*display: inline-block;
   margin-top: 15px;
   margin-left: 42px;*/
@@ -329,15 +333,17 @@ ul{
   height: 45%;
   margin-left: 2.5rem;
   margin-right: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   position: static;
   display: inline-block;
 }
 .box-icon{
   width: 100%;
   height: 50%;
-  /* text-align: center; */
+  border-radius: 8px 8px 0px 0px;
   background-color: #586775;
+  /* text-align: center; */
+
 }
 
 .img-icon {
@@ -369,6 +375,7 @@ ul{
   width: 100%;
   padding-top:1em;
   height: 120px;
+  border-radius: 0px 0px 8px 8px;
 }
 
 .box-branco > a > h3{
@@ -404,6 +411,7 @@ ul{
 .estrela-button > input{
   width: 2em;
   height: 2em;
+  border-radius: 0.2rem;
 }
 /*.estrela-button > input{
   margin-left: 11px;
@@ -435,6 +443,7 @@ ul{
 .button-quest > input{
   width: 2em;
   height: 2em;
+  border-radius: 0.2rem;
 }
 .interrogacao{
   position: absolute;
@@ -454,6 +463,7 @@ ul{
   width: 35%;
   top: -35%;
   z-index: 2;
+  border-radios: 6px 6px 0px 0px;
 }
 
 /*.solicitar > h4{
@@ -480,15 +490,7 @@ ul{
   width: 35%;
   height: 10%;
 }*/
-.border-radios-caixa{
-  border-radios: 6px 6px 0px 0px;
-}
-/*.border-radios-branco{
-  border-radios: 0px 0px 6px 6px;
-}
-.border-radios-solicitar{
-  border-radios: 6px 6px 0px 0px;
-}*/
+
 .border-radios-solicitar > input{
   width: 100%;
   background: rgba(255, 255, 255, 0.2);
@@ -503,7 +505,7 @@ ul{
   display: inline-block;
   margin-left: 2.5rem;
   border-top: 1px solid;
-  width: 90.5%;
+  width: 92.5%;
   color: #697a85;
   font-size: 14px;
 }
