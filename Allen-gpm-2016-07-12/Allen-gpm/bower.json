@@ -1,0 +1,21 @@
+{
+  "name": "Allen-gpm",
+  "homepage": "https://github.com/yankasantos/gpmNellA",
+  "authors": [
+    "yanka.santos <yankasantos0107@gmail.com>"
+  ],
+  "description": "web page services",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.6",
+    "material-design-icons": "^2.2.3"
+  }
+}
