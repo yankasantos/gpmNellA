@@ -304,16 +304,19 @@ ul{
   position: absolute;
   background-color: #ffffff;
   overflow: hidden;
-  width: 20%;
-  /*visibility: hidden;*/
+  /*display:none;*/
+}
+.box-notificacoes{
+  overflow: hidden;
+  width: 15%;
   -webkit-transition: all .5s ease-in .2s;
   -moz-transition: all .5s ease-in .2s;
   -ms-transition: all .5s ease-in .2s;
   -o-transition: all .5s ease-in .2s;
   transition: all .5s ease-in .2s;
-  /*display:none;*/
 }
-.box-tudo-item .icon-not{
+
+.box-notificacoes .icon-not{
   -webkit-transition: all .5s ease-in .2s;
   -moz-transition: all .5s ease-in .2s;
   -ms-transition: all .5s ease-in .2s;
