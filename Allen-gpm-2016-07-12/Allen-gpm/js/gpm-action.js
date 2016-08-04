@@ -1,14 +1,14 @@
 
     $(document).ready(function(){
         $(".icon-not").click(function(){
-            var toggle=$(".box-tudo-item").attr('data-toggle');
+            var toggle=$(".box-notificacoes").attr('data-toggle');
             if (toggle == 'true'){
-                $('.box-tudo-item')
+                $('.box-notificacoes')
                     .attr('data-toggle','false')
                     .removeClass('icon-not');
             }
             else{
-                $('.box-tudo-item')
+                $('.box-notificacoes')
                     .attr('data-toggle','true')
                     .addClass('icon-not');
             }
