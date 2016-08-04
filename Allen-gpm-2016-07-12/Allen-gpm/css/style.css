@@ -101,6 +101,25 @@ ul{
   margin-top: 1px;
   color:#FF033D;
 }
+.box-notificacoes{
+  overflow: hidden;
+  width: 15%;
+  visibility: hidden;
+  -webkit-transition: all .5s ease-in .2s;
+  -moz-transition: all .5s ease-in .2s;
+  -ms-transition: all .5s ease-in .2s;
+  -o-transition: all .5s ease-in .2s;
+  transition: all .5s ease-in .2s;
+}
+
+.box-notificacoes .icon-not{
+  -webkit-transition: all .5s ease-in .2s;
+  -moz-transition: all .5s ease-in .2s;
+  -ms-transition: all .5s ease-in .2s;
+  -o-transition: all .5s ease-in .2s;
+  transition: all .5s ease-in .2s;
+  height: 150px;
+}
 
 /******CONFIGURAÇÃO ****************************************************************/
 .config{
@@ -304,26 +323,11 @@ ul{
   position: absolute;
   background-color: #ffffff;
   overflow: hidden;
+  visibility: hidden;
   /*display:none;*/
-}
-.box-notificacoes{
-  overflow: hidden;
-  width: 15%;
-  -webkit-transition: all .5s ease-in .2s;
-  -moz-transition: all .5s ease-in .2s;
-  -ms-transition: all .5s ease-in .2s;
-  -o-transition: all .5s ease-in .2s;
-  transition: all .5s ease-in .2s;
+
 }
 
-.box-notificacoes .icon-not{
-  -webkit-transition: all .5s ease-in .2s;
-  -moz-transition: all .5s ease-in .2s;
-  -ms-transition: all .5s ease-in .2s;
-  -o-transition: all .5s ease-in .2s;
-  transition: all .5s ease-in .2s;
-  height: 150px;
-}
 
 .box-links-tudo-ul{
   border: 0px solid;
