@@ -303,8 +303,23 @@ ul{
 .box-tudo-item{
   position: absolute;
   background-color: #ffffff;
-  visibility: hidden;
+  overflow: hidden;
+  width: 20%;
+  /*visibility: hidden;*/
+  -webkit-transition: all .5s ease-in .2s;
+  -moz-transition: all .5s ease-in .2s;
+  -ms-transition: all .5s ease-in .2s;
+  -o-transition: all .5s ease-in .2s;
+  transition: all .5s ease-in .2s;
   /*display:none;*/
+}
+.box-tudo-item .icon-not{
+  -webkit-transition: all .5s ease-in .2s;
+  -moz-transition: all .5s ease-in .2s;
+  -ms-transition: all .5s ease-in .2s;
+  -o-transition: all .5s ease-in .2s;
+  transition: all .5s ease-in .2s;
+  height: 150px;
 }
 
 .box-links-tudo-ul{
