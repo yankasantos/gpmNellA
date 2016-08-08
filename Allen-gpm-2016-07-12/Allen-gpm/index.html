@@ -30,14 +30,14 @@
        <!------------------ ÁREA DE NOTIFICAÇÃO ---------------------------------------------------------->
                       <div class="notificacao">
                           <div class="bell-not not-icon-central"> <!-- Icone de Notificação -->
-                              <a class="icon-not" data-toggle="false"  alt="icone em forma de sino representando notifica&ccedil;&otilde;es">
+                              <a class="icon-not drop-down-box" data-toggle="false"  alt="icone em forma de sino representando notifica&ccedil;&otilde;es">
                                   <i class="fa fa-bell "></i>
                                </a>
                            </div>
                            <div class="not-recentes">
                                <i class="fa fa-circle quant-not-ball" aria-hidden="true"></i><!--Bollinha com a quantidade de notificação à ser visualizada -->
-                               <div class="box-tudo-item">
-                                   <ul class="box-notificacoes box-links-tudo-ul">
+                               <div class="box-tudo-item "  data-toggle="false">
+                                   <ul class="box-notificacoes box-links-tudo-ul" data-toggle="false">
                                    <a alt="Direciona para a notifica&ccedil;&atilde;"><li>Última notificação</li></a>
                                    <a alt="Direciona para a notifica&ccedil;&atilde;"><li>Atualização</li></a>
                                    <a alt="Direciona para a notifica&ccedil;&atilde;"><li>Novas Notícias do governo da Bahia</li></a>
@@ -47,11 +47,11 @@
                         </div><!--fim da div notificacao -->
        <!-------------------------- ÁREA DE CONFIGURAÇÃO --------------------------------------------------------------------->
                       <div class="config">
-                          <div class="icon-config">
-                              <a><i class="fa fa-cog" aria-hidden="true"></i></a>
-                          </div>
+                          <a class="drop-down-box engrenagem"><div class="icon-config">
+                              <i class="fa fa-cog" aria-hidden="true"></i>
+                          </div></a>
                           <!--div class="barra"></div-->
-                          <div class="box-barra-blue box-tudo-item">
+                          <div class="box-barra-blue box-tudo-item" data-toggle="false">
                               <ul class="box-links-tudo-ul">
                                  <li class="box-links-tudo-li">Geral</li>
                                  <li class="box-links-tudo-li">Conta</li>
@@ -68,10 +68,10 @@
                               </div>
 
                           </div>
-                          <div class="seta">
-                              <a><i class="fa fa-caret-down" aria-hidden="true"></i></a>
-                          </div>
-                          <div class="box-itens-perfil box-tudo-item">
+                          <a class="drop-down-box"><div class="seta">
+                              <i class="fa fa-caret-down" aria-hidden="true"></i>
+                          </div></a>
+                          <div class="box-itens-perfil box-tudo-item" data-toggle="false">
                               <ul>
                                   <li>Perfil</li>
                                   <li>Editar Conta</li>
@@ -132,10 +132,10 @@
                       <li>
                           <h5>Tudo</h5>
                           <form  type="button" class="seta-button">
-                              <i class="fa fa-caret-down" aria-hidden="true"></i>
-                          </form>
+                             <i class="fa fa-caret-down" aria-hidden="true"></i>
+                          </form></a>
 
-                          <div class="box-tudo-item">
+                          <div class="box-tudo-item" data-toggle="false">
                               <ul class="box-links-tudo-ul">
                                 <li class="box-links-tudo-li">- Escolha uma opção -</li>
                                 <li class="box-links-tudo-li">Transporte</li>
