@@ -40,15 +40,15 @@
 /***************Notificações*************************************************/
 $(document).ready(function(){
 
-    $("drop-down-box").click(function(){
-        var toggle = $('.box-tudo-item').attr('data-toggle');
+    $(".drop-down-box").click(function(){
+        var toggle = $(this).parent().find('.box-tudo-item').attr('data-toggle');
         if (toggle == 'true'){
-            $(this).parent().parent().find('.box-tudo-item')
+            $(this).parent().find('.box-tudo-item')
                 .attr('data-toggle','false')
                 .removeClass('active');
         }
         else{
-            $(this).parent().parent().find('.box-tudo-item')
+            $(this).parent().find('.box-tudo-item')
                 .attr('data-toggle','true').addClass('active');
         }
     });
