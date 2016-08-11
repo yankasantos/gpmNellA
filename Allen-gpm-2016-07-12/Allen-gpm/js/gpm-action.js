@@ -1,4 +1,29 @@
-/***************Notificações*************************************************/
+/*$(this) .find(".box-tudo-item");
+ $('icon-not active') .parent() .parent() .find('box-tudo-item')
+ */
+
+/*
+ ************************* Código de Caio *****************************
+ $(document).ready(function () {
+ $(".container > button").click(function () {
+ var toggle = $('.list-wrapper').attr('data-toggle');
+ if(toggle == 'true'){
+ $('.list-wrapper')
+ .attr('data-toggle', 'false')
+ .removeClass('active');
+
+ }
+ else{
+ $('.list-wrapper')
+ .attr('data-toggle', 'true')
+ .addClass('active');
+ }
+ });
+ });
+ *********************** Código de Caio *****************************
+ */
+
+/***************NotificaçõesJquery*************************************************/
     $(document).ready(function(){
 
          $(".icon-not").click(function(){
@@ -9,35 +34,18 @@
                     .removeClass('active');
             }
             else{
+                $('.active')
+                    .attr('data-toggle','false')
+                    .removeClass('active');
                 $(this).parent().parent().find('.box-tudo-item')
                     .attr('data-toggle','true').addClass('active');
+
             }
         });
     });
 
-    /*$(this) .find(".box-tudo-item");
-      $('icon-not active') .parent() .parent() .find('box-tudo-item')
-    */
 
-   /* $(document).ready(function () {
-        $(".container > button").click(function () {
-            var toggle = $('.list-wrapper').attr('data-toggle');
-            if(toggle == 'true'){
-                $('.list-wrapper')
-                    .attr('data-toggle', 'false')
-                    .removeClass('active');
-
-            }
-            else{
-                $('.list-wrapper')
-                    .attr('data-toggle', 'true')
-                    .addClass('active');
-            }
-        });
-    });
-    *********************** Código de Caio *****************************
-    */
-/***************Notificações*************************************************/
+/***************Drop-Down class jQuery*************************************************/
 $(document).ready(function(){
 
     $(".drop-down-box").click(function(){
@@ -47,9 +55,23 @@ $(document).ready(function(){
                 .attr('data-toggle','false')
                 .removeClass('active');
         }
-        else{
+        if(toggle == 'false'){
+            $('.active')
+                .attr('data-toggle','false')
+                .removeClass('active');
+
             $(this).parent().find('.box-tudo-item')
                 .attr('data-toggle','true').addClass('active');
         }
     });
+
+
 });
+
+/*function teste(){
+    alert("teste");
+}*/
+
+
+/***************************Javascript****************************************************/
+

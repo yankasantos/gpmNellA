@@ -16,3 +16,8 @@ if (myNum1 > myNum2) {
 else {
     document.write("This is my second condition");
 }*/
+var i=1;
+for (i<=5;++){
+    text = i;
+    document.write(i+'<br/>");
+}

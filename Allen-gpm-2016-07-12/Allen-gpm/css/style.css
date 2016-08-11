@@ -331,23 +331,37 @@ ul{
 }
 .active{
   visibility: visible;
+  right: 7rem;
+  top: 5.2rem;
 }
 
 
 .box-links-tudo-ul{
   border: 0px solid;
-  padding-left: 20px;
-  padding-top: 10;
+  padding-left: 10px;
   padding-bottom: 10px;
-  padding-right: 20px;
+  padding-right: 10px;
   position: relative;
 
 }
+/*.box-tudo-item > ul {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}*/
 
 .box-links-tudo-li{
   text-align: left;
   padding-left: 5px;
   color: #bbc3c7
+}
+.box-tudo-item > ul > li {
+  /* width: 5rem; */
+  height: inherit;
+  text-align: left;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  font-size: 18px;
 }
 .box-links-tudo-li:hover{
   color: #505458;
