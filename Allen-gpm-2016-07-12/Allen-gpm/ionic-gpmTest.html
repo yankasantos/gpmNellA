@@ -1,0 +1,29 @@
+<ion-pane ng-app="app">
+    <ion-header-bar>
+        <h1 class="title">GPM Teste With Ionic And Angular</h1>
+    </ion-header-bar>
+    <ion-content class="padding">
+        <h3>
+            Login
+        </h3>
+        <label class="item item-input">
+            <input ng-model="data.nome" type="text" placeholder="Nome">
+            </input>
+        </label>
+        <label class="item item-input">
+            <input ng-model="data.sobreNome" type="text" placeholder="Sobrenome">
+            </input>
+        </label>
+        <p class="padding">
+            {{data.nome}} {{data.sobrenome}} sua conta já está cadastrada.
+        </p>
+        <button ng-click="saveName()" class="button button-block button-positive" type="submit">Entrar</button>
+    </ion-content>
+    <ion-content ng-controller="AppCtrl" class="p adding">
+        <h3>
+            Olá, {{ name }}
+        </h3>
+        <button ng-click="saveName()" class="button button-block button-positive">Salvar</button>
+    </ion-content>
+
+</ion-pane>    
