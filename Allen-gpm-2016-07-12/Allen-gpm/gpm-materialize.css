@@ -1,6 +1,18 @@
-.nav-wrapper{
- @extend .#004b1c .teal .darken-4;
- }
-.fixed-action-btn horizontal click-to-toggle{
-    top:0px;
+.green-top{
+    background-color: #004b1c !important;
+}
+.top-middle{
+    padding-top: 6.5px !important;
+}
+.minhaConta-logo{
+    margin-left: 4rem;
+    font-size: medium;
+    width: 100%;
+    height: 9%;
+}
+.box-gray-background-cards{
+    background-color: #eeeeee;
+}
+.text-box-title{
+    font-size: 18px;
 }
