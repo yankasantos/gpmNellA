@@ -1,3 +1,6 @@
+.html{
+    background-color: #eeeeee !important;
+}
 .green-top{
     background-color: #004b1c !important;
 }
@@ -10,9 +13,18 @@
     width: 100%;
     height: 9%;
 }
+.img-box-backgound-foto{
+    height: 1rem;
+}
 .box-gray-background-cards{
     background-color: #eeeeee;
 }
 .text-box-title{
     font-size: 18px;
+}
+.dados-pessoais{
+    margin-top: 16rem;
+}
+.materialboxed{
+    height: 30%;
 }
