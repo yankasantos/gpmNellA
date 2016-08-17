@@ -4,16 +4,53 @@
 .green-top{
     background-color: #004b1c !important;
 }
+
 .top-middle{
     padding-top: 6.5px !important;
 }
 .minhaConta-logo{
-    margin-left: 4rem;
-    font-size: medium;
+    margin-left: 5rem;
+    font-size: 20px !important;
     width: 100%;
     height: 9%;
 }
-.img-box-backgound-foto{
+.box-dados{
+    font-size: 18px;
+    color:#212121;
+}
+.pencil {
+    margin-right: 2rem;
+}
+.box-email > h3{
+    font-size: 1.25rem;
+}
+.img-top{
+    margin-top: 0rem;
+}
+.box-input{
+    border-top: 0.5px solid;
+    border-bottom: 0.5px solid;
+    height: 4rem;
+    margin-top:0rem;
+    border-color: #e4e4e4 ;
+}
+.box-input > span{
+    margin-left:7rem;
+    font-size: 16px;
+}
+.box-input > label{
+    top: 1rem;
+    font-size: 20px !important;
+    color:#b8b8b8;
+}
+.email-user{
+    vertical-align: sub;
+    position: relative;
+    margin-top: 1.15rem;
+    margin-left: 7rem;
+    color:#4a4a4a;
+}
+/*.img-box-backgound-foto{
     height: 1rem;
 }
 .box-gray-background-cards{
@@ -27,4 +64,4 @@
 }
 .materialboxed{
     height: 30%;
-}
+}*/
