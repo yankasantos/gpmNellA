@@ -32,7 +32,8 @@
     border-bottom: 0.5px solid;
     height: 4rem;
     margin-top:0rem;
-    border-color: #e4e4e4 ;
+    border-color: #e4e4e4;
+    background-color: #ffffff;
 }
 .box-input > span{
     margin-left:7rem;
@@ -44,12 +45,32 @@
     color:#b8b8b8;
 }
 .email-user{
-    vertical-align: sub;
+    /*!*vertical-align: sub;*!
     position: relative;
+    margin-left: 7rem;*/
     margin-top: 1.15rem;
-    margin-left: 7rem;
-    color:#4a4a4a;
+    color: #4a4a4a;
+    text-align: right;
 }
+.data-de-nascimento {
+    /*margin-top: 1rem;
+    padding-top: 0.1rem;*/
+    text-align: right;
+}
+.dado{
+    margin-top: 1.2rem;
+    color: #4a4a4a;
+    text-align: right;
+}
+.botton-none{
+    margin-bottom: 0rem;
+}
+.email-row{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
 /*.img-box-backgound-foto{
     height: 1rem;
 }
