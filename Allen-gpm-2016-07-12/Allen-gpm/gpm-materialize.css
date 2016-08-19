@@ -70,6 +70,10 @@
     margin-right: auto;
     margin-bottom: 20px;
 }
+.card-image{
+    border-radius: 50% !important;
+    /*height: 2rem*/;
+}
 
 /*.img-box-backgound-foto{
     height: 1rem;
