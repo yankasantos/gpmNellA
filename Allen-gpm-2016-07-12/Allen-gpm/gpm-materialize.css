@@ -20,7 +20,13 @@
 }
 .pencil {
     margin-right: 2rem;
-    position: absolute;
+    position: relative;
+    right: 0.2rem;
+    top: 0rem;
+    padding-top: 0.1 !important;
+}
+.box-pencil{
+    position: absolute !important;
 }
 .box-email > h3{
     font-size: 1.25rem;
