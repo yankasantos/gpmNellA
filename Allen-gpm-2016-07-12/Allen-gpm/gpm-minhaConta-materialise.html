@@ -17,7 +17,7 @@
     <script type="text/javascript" src="bower_components/materialize/dist/js/materialize.js"></script>
     <script type="text/javascript" src="gpm-materialize-app.js"></script>
     <!--NavBar -->
-    <nav class="barra-nav-verde">
+    <nav class="barra-nav-verde navbar-fixed">
         <div class="nav-wrapper green-top ">
             <a href="#!" class="brand-logo left minhaConta-logo">Minha Conta</a>
             <a href="#" data-activates="slide-out" class="button-collapse menu-sanduiche"><i class="material-icons">menu</i></a>
@@ -53,13 +53,13 @@
     </ul>
     <!-------------------MINHA CONTA PAGE  ---------------------------------------------------->
     <div class="col s12 m7">
-        <div class="card img-top">
-            <div class="card-image circle">
-                <img class="circle" src="imagem/bg-gpm.png">
+        <div class="card img-top cl s12">
+            <div class="card-image circle materialboxed initialized">
+                <img class="bg-imag responsive-img" src="imagem/bg-gpm.png">
             </div>
         </div>
-        <div class="img-perfil circle">
-            <img class="img-user" src="imagem/seuZe.png">
+        <div class="img-perfil circle row cl s12">
+            <img class="img-user responsive-img" src="imagem/seuZe.png">
         </div>
     </div>
 
@@ -81,8 +81,8 @@
             <div class="row email-row">
                 <div class="input-field col s12 box-input">
                     <!--<input id="email" class=" box-input" type="email" class="validate">-->
-                    <label id="email" for="email">EMAIL</label>
-                    <div class="email-user"><span>fulanodasilva@hotmail.com</span></div>
+                    <label id="email" class="font18" for="email">EMAIL</label>
+                    <div class="email-user font16"><span>fulanodasilva@hotmail.com</span></div>
                 </div>
             </div>
             <!-------------------DADOS PESSOAIS ---------------------------------------------------->
@@ -90,8 +90,8 @@
                 <div class="row botton-none">
                     <div class="input-field col s12 box-input">
                         <!--<input id="email" class=" box-input" type="email" class="validate">-->
-                        <label id="nome" for="nome">NOME</label>
-                        <div class="dado"><span>Fulano da Silva</span></div>
+                        <label id="nome " class="font18" for="nome">NOME</label>
+                        <div class="dado font16"><span>Fulano da Silva</span></div>
                     </div>
                 </div>
             </div>
@@ -99,8 +99,8 @@
                 <div class="row botton-none">
                     <div class="input-field col s12 box-input">
                         <!--<input id="email" class=" box-input" type="email" class="validate">-->
-                        <label id="data-de-nascimento" for="data-de-nascimento">DATA DE NASCIMENTO</label>
-                        <div class="dado"><span>01/01/1985</span></div>
+                        <label id="data-de-nascimento" class="font18" for="data-de-nascimento">DATA DE NASCIMENTO</label>
+                        <div class="dado font16"><span>01/01/1985</span></div>
                     </div>
                 </div>
             </div>
@@ -108,8 +108,8 @@
                 <div class="row botton-none">
                     <div class="input-field col s12 box-input">
                         <!--<input id="email" class=" box-input" type="email" class="validate">-->
-                        <label id="endereco-id" for="endereco-id">ENDERE&Ccedil;O</label>
-                        <div class="dado"><span>Rua Localizada</span></div>
+                        <label id="endereco-id" class="font18" for="endereco-id">ENDERE&Ccedil;O</label>
+                        <div class="dado font16"><span>Rua Localizada</span></div>
                     </div>
                 </div>
             </div>
@@ -117,8 +117,8 @@
                 <div class="row botton-none">
                     <div class="input-field col s12 box-input">
                         <!--<input id="email" class=" box-input" type="email" class="validate">-->
-                        <label id="numero-id" for="numero-id">N&Uacute;MERO</label>
-                        <div class="dado"><span>123</span></div>
+                        <label id="numero-id" class="font18" for="numero-id">N&Uacute;MERO</label>
+                        <div class="dado font16"><span>123</span></div>
                     </div>
                 </div>
             </div>
@@ -126,8 +126,8 @@
                 <div class="row botton-none">
                     <div class="input-field col s12 box-input">
                         <!--<input id="email" class=" box-input" type="email" class="validate">-->
-                        <label id="complemento-id" for="complemento-id">COMPLEMENTO</label>
-                        <div class="dado"><span>Bloco A - Apto.: 101</span></div>
+                        <label id="complemento-id" class="font18" for="complemento-id">COMPLEMENTO</label>
+                        <div class="dado font16"><span>Bloco A - Apto.: 101</span></div>
                     </div>
                 </div>
             </div>
@@ -135,8 +135,8 @@
                 <div class="row botton-none">
                     <div class="input-field col s12 box-input">
                         <!--<input id="email" class=" box-input" type="email" class="validate">-->
-                        <label id="bairro-id" for="bairro-id">BAIRRO</label>
-                        <div class="dado"><span>Canela</span></div>
+                        <label id="bairro-id" class="font18" for="bairro-id">BAIRRO</label>
+                        <div class="dado font16"><span>Canela</span></div>
                     </div>
                 </div>
             </div>
@@ -144,8 +144,8 @@
                 <div class="row botton-none">
                     <div class="input-field col s12 box-input">
                         <!--<input id="email" class=" box-input" type="email" class="validate">-->
-                        <label id="municipio-id" for="municipio-id">MUNIC&Iacute;PIO</label>
-                        <div class="dado"><span>Salvador</span></div>
+                        <label id="municipio-id" class="font18" for="municipio-id">MUNIC&Iacute;PIO</label>
+                        <div class="dado font16"><span>Salvador</span></div>
                     </div>
                 </div>
             </div>
@@ -156,8 +156,8 @@
                         <div class="row botton-none">
                             <div class="input-field col s12 box-input">
                                 <!--<input id="email" class=" box-input" type="email" class="validate">-->
-                                <label id="rg-id" for="rg-id">RG</label>
-                                <div class="dado"><span>12.345.678-9</span></div>
+                                <label id="rg-id" class="font18" for="rg-id">RG</label>
+                                <div class="dado font16"><span>12.345.678-9</span></div>
                             </div>
                         </div>
                     </div>
@@ -165,34 +165,34 @@
                         <div class="row botton-none">
                             <div class="input-field col s12 box-input">
                                 <!--<input id="email" class=" box-input" type="email" class="validate">-->
-                                <label id="cpf-id" for="cpf-id">CPF</label>
-                                <div class="dado"><span>123.456.789-12</span></div>
+                                <label id="cpf-id" class="font18" for="cpf-id">CPF</label>
+                                <div class="dado font16"><span>123.456.789-12</span></div>
                             </div>
                         </div>
                     </div>
                     <div class="tituloEleitor">
                         <div class="row botton-none">
                             <div class="input-field col s12 box-input">
-                                <label id="tEleitor-id" for="tEleitor-id">T&Iacute;TULO ELEITOR</label>
-                                <div class="dado"><span>123.456.789-12</span></div>
+                                <label id="tEleitor-id" class="font18" for="tEleitor-id">T&Iacute;TULO ELEITOR</label>
+                                <div class="dado font16"><span>123.456.789-12</span></div>
                             </div>
                         </div>
                     </div>
                     <div class="reservista">
                         <div class="row botton-none">
                             <div class="input-field col s12 box-input">
-                                <label id="reservista-id" for="reservista-id">RESERVISTA</label>
-                                <div class="dado"><span>1234567890123</span></div>
+                                <label id="reservista-id" class="font18" for="reservista-id">RESERVISTA</label>
+                                <div class="dado font16"><span>1234567890123</span></div>
                             </div>
                         </div>
                     </div>
-                <div class="box-dados ">
-                    <h2 class="box-dados ">Outros</h2>
+                <div class="box-dados">
+                    <h2 class="box-dados">Outros</h2>
                     <div class="outros">
                         <div class="row botton-none">
                             <div class="input-field col s12 box-input">
-                                <label id="minhaFamilia-id" for="minhaFamilia-id">Minha fam&iacute;lia</label>
-                                <div class="dado">
+                                <label id="minhaFamilia-id" class="font18" for="minhaFamilia-id">Minha fam&iacute;lia</label>
+                                <div class="dado font16">
                                     <span>
                                         <i class="material-icons">keyboard_arrow_right</i>
                                     </span>
