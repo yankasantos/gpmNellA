@@ -10,4 +10,3 @@ $(document).ready(function(){
     $('.button-collapse').sideNav('hide');*/
 }) 
 /***********************BOTAO DE EDICAO*******************************/
-$(document).getElementBYClassName('pencil').innerHTML = ;

@@ -15,7 +15,7 @@
 }
 
 .minhaConta-logo{
-    margin-left: 5rem;
+    margin-left: 5rem !important;
     font-size: 20px !important;
     width: 100%;
     height: 9%;
@@ -132,3 +132,263 @@
 .materialboxed{
     height: 30%;
 }*/
+/************************************* MEDIA QUERIES 768 ****************************************************************************************/
+
+@media screen and (min-width: 768px){
+    .html{
+        background-color: #eeeeee !important;
+    }
+    .green-top{
+        background-color: #004b1c !important;
+    }
+    .font16{
+        font-size: 16px !important;
+    }
+    .font18{
+        font-size: 17px !important;
+    }
+    .top-middle{
+        padding-top: 6.5px !important;
+    }
+
+    .minhaConta-logo{
+        margin-left: 0rem !important;
+        font-size: 20px !important;
+        width: 100%;
+        height: 9%;
+        text-align: center;
+    }
+    .barra-nav-verde{
+        position: fixed !important;
+    }
+    .menu-sanduiche{
+        margin-left: 3rem !important;
+        margin-top: 0rem !important;
+    }
+    .bg-imag{
+        height: 25% !important;
+    }
+    .box-dados{
+        font-size: 18px;
+        color:#212121;
+    }
+    .pencil {
+       /* margin-right: 3rem!important;*/
+        position: relative;
+        right: 0.2rem;
+        top: 0rem;
+        padding-top: 0.1 !important;
+    }
+    .box-pencil{
+        position: absolute !important;
+        top: 0.13rem !important;
+        right: 3rem !important;
+    }
+    .box-email > h3{
+        font-size: 1.25rem;
+    }
+    .img-top{
+        margin-top: 0rem;
+        positon: absolute;
+    }
+    .img-user{
+        position: relative;
+        height: 100% !important;
+        padding-top: 0.4rem !important;
+        padding-left: 2rem !important;
+        padding-bottom: 0.2rem !important;
+        /*border-radius: 50% !important;*/
+        object-fit: cover;
+        object-position: top center;
+
+    }
+    .img-perfil{
+        width: 25% !important;
+        height: 20% !important;
+        border-radius: 100% !important;
+        margin-left: 40% !important;
+        position: absolute;
+        top: 10% !important;
+        background-color: #ffffff;
+    }
+
+
+    .box-input{
+        border-top: 0.5px solid;
+        border-bottom: 0.5px solid;
+        height: 4rem;
+        margin-top:0rem;
+        border-color: #e4e4e4;
+        background-color: #ffffff;
+    }
+    .box-input > span{
+        margin-left:7rem;
+        font-size: 16px;
+    }
+    .box-input > label{
+        top: 1rem;
+        /*font-size: 20px !important;*/
+        color:#b8b8b8;
+    }
+    .email-user{
+        /*!*vertical-align: sub;*!
+        position: relative;
+        margin-left: 7rem;*/
+        margin-top: 1.15rem;
+        color: #4a4a4a;
+        text-align: right;
+    }
+    .data-de-nascimento {
+        /*margin-top: 1rem;
+        padding-top: 0.1rem;*/
+        text-align: right;
+    }
+    .dado{
+        margin-top: 1.2rem;
+        color: #4a4a4a;
+        text-align: right;
+    }
+    .botton-none{
+        margin-bottom: 0rem;
+    }
+    .email-row{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    .card-image{
+        border-radius: 50% !important;
+        /*height: 2rem*/;
+    }
+
+}
+/************************************* MEDIA QUERIES 800 ****************************************************************************************/
+
+@media screen and(min-widht: 800px) {
+    .html{
+        background-color: #eeeeee !important;
+    }
+    .green-top{
+        background-color: #004b1c !important;
+    }
+    .font16{
+        font-size: 16px !important;
+    }
+    .font18{
+        font-size: 17px !important;
+    }
+    .top-middle{
+        padding-top: 6.5px !important;
+    }
+
+    .minhaConta-logo{
+        margin-left: 0rem !important;
+        font-size: 20px !important;
+        width: 100%;
+        height: 9%;
+        text-align: center;
+    }
+    .barra-nav-verde{
+        position: fixed !important;
+    }
+    .menu-sanduiche{
+        margin-left: 3rem !important;
+        margin-top: 0rem !important;
+    }
+    .bg-imag{
+        height: 25% !important;
+    }
+    .box-dados{
+        font-size: 18px;
+        color:#212121;
+    }
+    .pencil {
+        /* margin-right: 3rem!important;*/
+        position: relative;
+        right: 0.2rem;
+        top: 0rem;
+        padding-top: 0.1 !important;
+    }
+    .box-pencil{
+        position: absolute !important;
+        top: 0.13rem !important;
+        right: 3rem !important;
+    }
+    .box-email > h3{
+        font-size: 1.25rem;
+    }
+    .img-top{
+        margin-top: 0rem;
+        positon: absolute;
+    }
+    .img-user{
+        position: relative;
+        height: 100% !important;
+        padding-top: 0.4rem !important;
+        padding-left: 2rem !important;
+        padding-bottom: 0.2rem !important;
+        /*border-radius: 50% !important;*/
+        object-fit: cover;
+        object-position: top center;
+
+    }
+    .img-perfil{
+        width: 24% !important;
+        height: 16% !important;
+        border-radius: 100% !important;
+        margin-left: 40% !important;
+        position: absolute;
+        top: 10% !important;
+        background-color: #ffffff;
+    }
+
+
+    .box-input{
+        border-top: 0.5px solid;
+        border-bottom: 0.5px solid;
+        height: 4rem;
+        margin-top:0rem;
+        border-color: #e4e4e4;
+        background-color: #ffffff;
+    }
+    .box-input > span{
+        margin-left:7rem;
+        font-size: 16px;
+    }
+    .box-input > label{
+        top: 1rem;
+        /*font-size: 20px !important;*/
+        color:#b8b8b8;
+    }
+    .email-user{
+        /*!*vertical-align: sub;*!
+        position: relative;
+        margin-left: 7rem;*/
+        margin-top: 1.15rem;
+        color: #4a4a4a;
+        text-align: right;
+    }
+    .data-de-nascimento {
+        /*margin-top: 1rem;
+        padding-top: 0.1rem;*/
+        text-align: right;
+    }
+    .dado{
+        margin-top: 1.2rem;
+        color: #4a4a4a;
+        text-align: right;
+    }
+    .botton-none{
+        margin-bottom: 0rem;
+    }
+    .email-row{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    .card-image{
+        border-radius: 50% !important;
+        /*height: 2rem*/;
+    }
+
+}
