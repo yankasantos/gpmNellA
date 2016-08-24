@@ -1,3 +1,4 @@
+/************************ MENU LATERAL ******************************/
 $(document).ready(function(){
     /*$(".button-collapse").sideNav();*/
     $('.button-collapse').sideNav({
@@ -7,4 +8,6 @@ $(document).ready(function(){
     });
     /*$('.button-collapse').sideNav('show');
     $('.button-collapse').sideNav('hide');*/
-})
+}) 
+/***********************BOTAO DE EDICAO*******************************/
+$(document).getElementBYClassName('pencil').innerHTML = ;
