@@ -1,6 +1,9 @@
 .html{
     background-color: #eeeeee !important;
 }
+.body{
+    background-color: #eeeeee !important;
+}
 .green-top{
     background-color: #004b1c !important;
 }
@@ -78,7 +81,7 @@
     height: 4rem;
     margin-top:0rem;
     border-color: #e4e4e4;
-    background-color: #ffffff;
+    background-color: #ffffff !important;
 }
 .box-input > span{
     margin-left:7rem;
@@ -88,6 +91,7 @@
     top: 1rem;
     /*font-size: 20px !important;*/
     color:#b8b8b8;
+
 }
 .email-user{
     /*!*vertical-align: sub;*!
@@ -149,6 +153,9 @@
     }
     .font18{
         font-size: 17px !important;
+    }
+    .font24{
+        font-size: 24px !important;
     }
     .top-middle{
         padding-top: 6.5px !important;
@@ -232,7 +239,7 @@
         height: 4rem;
         margin-top:0rem;
         border-color: #e4e4e4;
-        background-color: #ffffff;
+        background-color: #ffffff !important;
     }
     .box-input > span{
         margin-left:7rem;
@@ -289,6 +296,9 @@
     }
     .font18{
         font-size: 17px !important;
+    }
+    .font24{
+        font-size: 24px !important;
     }
     .top-middle{
         padding-top: 6.5px !important;
@@ -353,7 +363,7 @@
         border-radius: 100% !important;
         margin-left: 41% !important;
         position: absolute;
-        top: 7% !important;
+        top: 8% !important;
         background-color: #ffffff;
     }
 
@@ -364,7 +374,7 @@
         height: 4rem;
         margin-top:0rem;
         border-color: #e4e4e4;
-        background-color: #ffffff;
+        background-color: #ffffff !imortant;
     }
     .box-input > span{
         margin-left:7rem;
@@ -420,6 +430,9 @@
     }
     .font18{
         font-size: 17px !important;
+    }
+    .font24{
+        font-size: 24px !important;
     }
     .top-middle{
         padding-top: 6.5px !important;
@@ -495,7 +508,7 @@
         height: 4rem;
         margin-top:0rem;
         border-color: #e4e4e4;
-        background-color: #ffffff;
+        background-color: #ffffff !important;
     }
     .box-input > span{
         margin-left:7rem;
@@ -551,6 +564,9 @@
     }
     .font18{
         font-size: 17px !important;
+    }
+    .font24{
+        font-size: 24px !important;
     }
     .top-middle{
         padding-top: 6.5px !important;
@@ -626,7 +642,7 @@
         height: 4rem;
         margin-top:0rem;
         border-color: #e4e4e4;
-        background-color: #ffffff;
+        background-color: #ffffff !important;
     }
     .box-input > span{
         margin-left:7rem;
