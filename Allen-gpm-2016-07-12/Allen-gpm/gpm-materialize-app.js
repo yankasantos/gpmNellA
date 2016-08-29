@@ -10,10 +10,12 @@ $(document).ready(function(){
     $('.button-collapse').sideNav('hide');*/
 }) 
 /***********************BOTAO DE EDICAO*******************************/
+/*
 $(document).redy(function)
     $("box-pencil").click(function(){
 
     });
+*/
 
 
 //
