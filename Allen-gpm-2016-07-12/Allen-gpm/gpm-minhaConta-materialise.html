@@ -12,231 +12,237 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     </head>
-
     <body>
-    <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="bower_components/materialize/dist/js/materialize.js"></script>
-    <script type="text/javascript" src="gpm-materialize-app.js"></script>
-    <!--NavBar -->
-    <nav class="barra-nav-verde navbar-fixed">
-        <div class="nav-wrapper green-top ">
-            <a href="#!" class="brand-logo left minhaConta-logo">Minha Conta</a>
-            <a href="#" data-activates="slide-out" class="button-collapse menu-sanduiche cl s3"><i class="material-icons">menu</i></a>
-            <!-- <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">mode_edit</i></a>-->
-        </div>
-        <!------------------------------------MENU NAVBAR SIDE ------------------------------------------------------------------------------------------->
-        <div class="fixed-action-btn horizontal click-to-toggle box-pencil" style="top: 0px; right: 24px;">
-            <a class="col s11 center top-middle pencil">
-                <i class="material-icons">mode_edit</i>
-            </a>
-            <!--<ul>
-                <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
-                <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
-                <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
-                <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
-            </ul>-->
-        </div>
-    </nav>
-    <ul id="slide-out" class="side-nav">
-        <li><div class="userView">
-            <img class="background" src="imagem/bg-materialize.jpg">
-            <a href="#!user"><img class="circle" src="imagem/fulanodasilva.png"></a>
-            <a href="#!name"><span class="white-text name">Fulano da Silva</span></a>
-            <a href="#!email"><span class="white-text email">fulanodasilva@gmail.com</span></a>
-        </div></li>
-        <li><a href="#!"><i class="material-icons">home</i>Governo na Plama da M&atilde;o</a></li>
-        <li><a href="#!"><i class="material-icons">apps</i>Servi&ccedil;os</a></li>
-        <li><a href="#!"><i class="material-icons">favorite</i>Favoritos</a></li>
-        <li><a href="#!"><i class="material-icons">notifications</i>Notifica&ccedil;&otilde;es</a></li>
-        <li><div class="divider"></div></li>
-        <!--<li><a class="subheader">Subheader</a></li>-->
-        <li><a href="#!"><i class="material-icons">account_box</i>Minha Conta</a></li>
-    </ul>
-    <!-------------------MINHA CONTA PAGE  ---------------------------------------------------->
-    <div class="col s12 m7">
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="bower_components/materialize/dist/js/materialize.js"></script>
+        <script type="text/javascript" src="gpm-materialize-app.js"></script>
+        <!--NavBar -->
+        <nav class="barra-nav-verde navbar-fixed">
+            <div class="nav-wrapper green-top ">
+                <a href="#!" class="brand-logo left minhaConta-logo">Minha Conta</a>
+                <a href="#" data-activates="slide-out" class="button-collapse menu-sanduiche cl s3"><i class="material-icons">menu</i></a>
+                <!-- <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">mode_edit</i></a>-->
+            </div>
+            <!------------------------------------MENU NAVBAR SIDE ------------------------------------------------------------------------------------------->
+            <div class="fixed-action-btn horizontal click-to-toggle box-pencil" style="top: 0px; right: 24px;">
+                <a class="col s11 center top-middle pencil">
+                    <i class="material-icons">mode_edit</i>
+                </a>
+                <!--<ul>
+                    <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+                    <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+                    <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+                    <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+                </ul>-->
+            </div>
+        </nav>
+        <ul id="slide-out" class="side-nav">
+            <li><div class="userView">
+                <img class="background" src="imagem/bg-materialize.jpg">
+                <a href="#!user"><img class="circle" src="imagem/fulanodasilva.png"></a>
+                <a href="#!name"><span class="white-text name">Fulano da Silva</span></a>
+                <a href="#!email"><span class="white-text email">fulanodasilva@gmail.com</span></a>
+            </div></li>
+            <li><a href="#!"><i class="material-icons">home</i>Governo na Plama da M&atilde;o</a></li>
+            <li><a href="#!"><i class="material-icons">apps</i>Servi&ccedil;os</a></li>
+            <li><a href="#!"><i class="material-icons">favorite</i>Favoritos</a></li>
+            <li><a href="#!"><i class="material-icons">notifications</i>Notifica&ccedil;&otilde;es</a></li>
+            <li><div class="divider"></div></li>
+            <!--<li><a class="subheader">Subheader</a></li>-->
+            <li><a href="#!"><i class="material-icons">account_box</i>Minha Conta</a></li>
+        </ul>
+        <!-------------------MINHA CONTA PAGE  ---------------------------------------------------->
         <div class="card img-top cl s12">
             <div class="card-image circle materialboxed initialized">
                 <img class="bg-imag responsive-img" src="imagem/bg-gpm.png">
             </div>
         </div>
-        <div class="img-perfil circle row cl s12">
-            <img class="img-user responsive-img" src="imagem/seuZe.png">
-        </div>
-        <div class="box-gradient">
-            <div class="lista-name-email">
-                <!--ul class="name-email-top">
-                    <li-->
-                <a href="#!name" class="fulano-name"><span class="white-text name">Fulano da Silva</span></a>
-                <a href="#!email" class="fulano-email"><span class="white-text email">fulanodasilva@gmail.com</span></a>
-                <!--/li>
-             </ul-->
-            </div>
-        </div>
+        <div class="container">
+           <div class="row">
+                <div class="col s12 ">
 
-    </div>
-    <!--ul id="slide-out" class="side-nav">
-        <li><div class="userView">
-            <img class="background" src="imagem/bg-gpm.png">
-            <a href="#!user"><img class="circle" src="imagem/seuZe.png"></a>
-            <a href="#!name"><span class="white-text name">Fulano da Silva</span></a>
-            <a href="#!email"><span class="white-text email">fulanodasilva@gmail.com</span></a>
-        </div></li>
-    </ul-->
-
-
-    <!--<div class="userView minhaConta-bgPic card">
-        <img id="slide-out" class=" card-image" src="imagem/bahia.jpg">
-    </div>-->
-
-
-    <div class="box-dados-container row container">
-        <h2 class="box-dados ">Dados Pessoais</h2>
-        <form class="email-form ">
-            <!--<div class="box-email input-field col s10">
-
-                <input id="email" class="validate" type="text" placeholder="fulanodasilva@hotmail.com"></input>
-                <label for="email">E-MAIL</label>
-
-            </div>
-            -->
-            <div class="row email-row">
-                <div class="input-field col s12 box-input">
-                    <!--<input id="email" class=" box-input" type="email" class="validate">-->
-                    <label id="email" class="font18 font24 for="email">EMAIL</label>
-                    <div class="email-user font16 font24"><span>fulanodasilva@hotmail.com</span></div>
-                </div>
-            </div>
-            <!-------------------DADOS PESSOAIS ---------------------------------------------------->
-            <div class="nome-camp">
-                <div class="row botton-none">
-                    <div class="input-field col s12 box-input">
-                        <!--<input id="email" class=" box-input" type="email" class="validate">-->
-                        <label id="nome" class="font18 font24" for="nome">NOME</label>
-                        <div class="dado font16 nome font24"><span>Fulano da Silva</span></div>
+                    <div class="img-perfil circle row cl s12">
+                        <img class="img-user responsive-img" src="imagem/seuZe.png">
                     </div>
-                </div>
-            </div>
-            <div class="data-de-nascimento">
-                <div class="row botton-none">
-                    <div class="input-field col s12 box-input">
-                        <!--<input id="email" class=" box-input" type="email" class="validate">-->
-                        <label id="data-de-nascimento" class="font18 font24" for="data-de-nascimento">DATA DE NASCIMENTO</label>
-                        <div class="dado font16 font24"><span>01/01/1985</span></div>
-                    </div>
-                </div>
-            </div>
-            <div class="endereco">
-                <div class="row botton-none">
-                    <div class="input-field col s12 box-input">
-                        <!--<input id="email" class=" box-input" type="email" class="validate">-->
-                        <label id="endereco-id" class="font18 font24" for="endereco-id">ENDERE&Ccedil;O</label>
-                        <div class="dado font16 font24"><span>Rua Localizada</span></div>
-                    </div>
-                </div>
-            </div>
-            <div class="numero">
-                <div class="row botton-none">
-                    <div class="input-field col s12 box-input">
-                        <!--<input id="email" class=" box-input" type="email" class="validate">-->
-                        <label id="numero-id" class="font18 font24" for="numero-id">N&Uacute;MERO</label>
-                        <div class="dado font16 font24"><span>123</span></div>
-                    </div>
-                </div>
-            </div>
-            <div class="complemento">
-                <div class="row botton-none">
-                    <div class="input-field col s12 box-input">
-                        <!--<input id="email" class=" box-input" type="email" class="validate">-->
-                        <label id="complemento-id" class="font18 font24" for="complemento-id">COMPLEMENTO</label>
-                        <div class="dado font16 font24"><span>Bloco A - Apto.: 101</span></div>
-                    </div>
-                </div>
-            </div>
-            <div class="bairro">
-                <div class="row botton-none">
-                    <div class="input-field col s12 box-input">
-                        <!--<input id="email" class=" box-input" type="email" class="validate">-->
-                        <label id="bairro-id" class="font18 font24" for="bairro-id">BAIRRO</label>
-                        <div class="dado font16 font24"><span>Adrianópolis</span></div>
-                    </div>
-                </div>
-            </div>
-            <div class="municipio">
-                <div class="row botton-none">
-                    <div class="input-field col s12 box-input">
-                        <!--<input id="email" class=" box-input" type="email" class="validate">-->
-                        <label id="municipio-id" class="font18 font24" for="municipio-id">MUNIC&Iacute;PIO</label>
-                        <div class="dado font16 font24"><span>Manaus</span></div>
-                    </div>
-                </div>
-            </div>
-            <!-------------------DADOS PESSOAIS ---------------------------------------------------->
-            <div class="box-dados ">
-                <h2 class="box-dados ">Meus Documentos</h2>
-                    <div class="rg">
-                        <div class="row botton-none">
-                            <div class="input-field col s12 box-input">
-                                <!--<input id="email" class=" box-input" type="email" class="validate">-->
-                                <label id="rg-id" class="font18 font24" for="rg-id">RG</label>
-                                <div class="dado font16 font24"><span>12.345.678-9</span></div>
-                            </div>
+                    <div class="box-gradient col s12">
+                        <div class="lista-name-email col s12">
+                            <!--ul class="name-email-top">
+                                <li-->
+                            <a href="#!name" class="fulano-name"><span class="white-text name">Fulano da Silva</span></a>
+                            <a href="#!email" class="fulano-email"><span class="white-text email">fulanodasilva@gmail.com</span></a>
+                            <!--/li>
+                         </ul-->
                         </div>
                     </div>
-                    <div class="cpf">
-                        <div class="row botton-none">
-                            <div class="input-field col s12 box-input">
-                                <!--<input id="email" class=" box-input" type="email" class="validate">-->
-                                <label id="cpf-id" class="font18 font24" for="cpf-id">CPF</label>
-                                <div class="dado font16 font24"><span>123.456.789-12</span></div>
-                            </div>
+
+                </div>
+           </div>
+       </div>
+        <!--ul id="slide-out" class="side-nav">
+            <li><div class="userView">
+                <img class="background" src="imagem/bg-gpm.png">
+                <a href="#!user"><img class="circle" src="imagem/seuZe.png"></a>
+                <a href="#!name"><span class="white-text name">Fulano da Silva</span></a>
+                <a href="#!email"><span class="white-text email">fulanodasilva@gmail.com</span></a>
+            </div></li>
+        </ul-->
+
+
+        <!--<div class="userView minhaConta-bgPic card">
+            <img id="slide-out" class=" card-image" src="imagem/bahia.jpg">
+        </div>-->
+
+
+        <div class="box-dados-container row container">
+            <div class="row">
+                <h2 class="box-dados ">Dados Pessoais</h2>
+                <form class="email-form ">
+                    <!--<div class="box-email input-field col s10">
+
+                        <input id="email" class="validate" type="text" placeholder="fulanodasilva@hotmail.com"></input>
+                        <label for="email">E-MAIL</label>
+
+                    </div>
+                    -->
+                    <div class="row email-row">
+                        <div class="input-field col s12 box-input">
+                            <!--<input id="email" class=" box-input" type="email" class="validate">-->
+                            <label id="email" class="font18 font24 for="email">EMAIL</label>
+                            <div class="email-user font16 font24"><span>fulanodasilva@hotmail.com</span></div>
                         </div>
                     </div>
-                    <div class="tituloEleitor">
-                        <div class="row botton-none">
-                            <div class="input-field col s12 box-input">
-                                <label id="tEleitor-id" class="font18 font24" for="tEleitor-id">T&Iacute;TULO ELEITOR</label>
-                                <div class="dado font16 font24"><span>123.456.789-12</span></div>
-                            </div>
+
+     <!---------------------------------------------DADOS PESSOAIS ---------------------------------------------------->
+        <!--<div class="container">
+            <div class="row">-->
+                <div class="nome-camp">
+                    <div class="row botton-none">
+                        <div class="input-field col s12 box-input">
+                            <!--<input id="email" class=" box-input" type="email" class="validate">-->
+                            <label id="nome" class="font18 font24" for="nome">NOME</label>
+                            <div class="dado font16 nome font24"><span>Fulano da Silva</span></div>
                         </div>
                     </div>
-                    <div class="reservista">
-                        <div class="row botton-none">
-                            <div class="input-field col s12 box-input">
-                                <label id="reservista-id" class="font18 font24" for="reservista-id">RESERVISTA</label>
-                                <div class="dado font16 font24"><span>1234567890123</span></div>
-                            </div>
+                </div>
+                <div class="data-de-nascimento">
+                    <div class="row botton-none">
+                        <div class="input-field col s12 box-input">
+                            <!--<input id="email" class=" box-input" type="email" class="validate">-->
+                            <label id="data-de-nascimento" class="font18 font24" for="data-de-nascimento">DATA DE NASCIMENTO</label>
+                            <div class="dado font16 font24"><span>01/01/1985</span></div>
                         </div>
                     </div>
-                <div class="box-dados">
-                    <h2 class="box-dados">Outros</h2>
-                    <div class="outros">
-                        <div class="row botton-none">
-                            <div class="input-field col s12 box-input">
-                                <label id="minhaFamilia-id" class="font18 font24" for="minhaFamilia-id">Minha fam&iacute;lia</label>
-                                <div class="dado font16 font24">
-                                    <span>
-                                        <i class="material-icons">keyboard_arrow_right</i>
-                                    </span>
+                </div>
+                <div class="endereco">
+                    <div class="row botton-none">
+                        <div class="input-field col s12 box-input">
+                            <!--<input id="email" class=" box-input" type="email" class="validate">-->
+                            <label id="endereco-id" class="font18 font24" for="endereco-id">ENDERE&Ccedil;O</label>
+                            <div class="dado font16 font24"><span>Rua Localizada</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="numero">
+                    <div class="row botton-none">
+                        <div class="input-field col s12 box-input">
+                            <!--<input id="email" class=" box-input" type="email" class="validate">-->
+                            <label id="numero-id" class="font18 font24" for="numero-id">N&Uacute;MERO</label>
+                            <div class="dado font16 font24"><span>123</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="complemento">
+                    <div class="row botton-none">
+                        <div class="input-field col s12 box-input">
+                            <!--<input id="email" class=" box-input" type="email" class="validate">-->
+                            <label id="complemento-id" class="font18 font24" for="complemento-id">COMPLEMENTO</label>
+                            <div class="dado font16 font24"><span>Bloco A - Apto.: 101</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bairro">
+                    <div class="row botton-none">
+                        <div class="input-field col s12 box-input">
+                            <!--<input id="email" class=" box-input" type="email" class="validate">-->
+                            <label id="bairro-id" class="font18 font24" for="bairro-id">BAIRRO</label>
+                            <div class="dado font16 font24"><span>Adrianópolis</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="municipio">
+                    <div class="row botton-none">
+                        <div class="input-field col s12 box-input">
+                            <!--<input id="email" class=" box-input" type="email" class="validate">-->
+                            <label id="municipio-id" class="font18 font24" for="municipio-id">MUNIC&Iacute;PIO</label>
+                            <div class="dado font16 font24"><span>Manaus</span></div>
+                        </div>
+                    </div>
+                </div>
+                <!-------------------DADOS PESSOAIS ---------------------------------------------------->
+                <div class="box-dados ">
+                    <h2 class="box-dados ">Meus Documentos</h2>
+                        <div class="rg">
+                            <div class="row botton-none">
+                                <div class="input-field col s12 box-input">
+                                    <!--<input id="email" class=" box-input" type="email" class="validate">-->
+                                    <label id="rg-id" class="font18 font24" for="rg-id">RG</label>
+                                    <div class="dado font16 font24"><span>12.345.678-9</span></div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                        <div class="cpf">
+                            <div class="row botton-none">
+                                <div class="input-field col s12 box-input">
+                                    <!--<input id="email" class=" box-input" type="email" class="validate">-->
+                                    <label id="cpf-id" class="font18 font24" for="cpf-id">CPF</label>
+                                    <div class="dado font16 font24"><span>123.456.789-12</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tituloEleitor">
+                            <div class="row botton-none">
+                                <div class="input-field col s12 box-input">
+                                    <label id="tEleitor-id" class="font18 font24" for="tEleitor-id">T&Iacute;TULO ELEITOR</label>
+                                    <div class="dado font16 font24"><span>123.456.789-12</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reservista">
+                            <div class="row botton-none">
+                                <div class="input-field col s12 box-input">
+                                    <label id="reservista-id" class="font18 font24" for="reservista-id">RESERVISTA</label>
+                                    <div class="dado font16 font24"><span>1234567890123</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="box-dados">
+                        <h2 class="box-dados">Outros</h2>
+                        <div class="outros">
+                            <div class="row botton-none">
+                                <div class="input-field col s12 box-input">
+                                    <label id="minhaFamilia-id" class="font18 font24" for="minhaFamilia-id">Minha fam&iacute;lia</label>
+                                    <div class="dado font16 font24">
+                                        <span>
+                                            <i class="material-icons">keyboard_arrow_right</i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
+                            <!--<ul>
+                                <li class="collection-item">Alan<span class="badge">1</span></li>
+                                <li class="collection-item">Alan<span class="new badge">4</span></li>
+                                <li class="collection-item">Alan</li>
+                                <li class="collection-item input-field">
+                                    <input id="first_name" type="text" class="validate">
+                                    <label for="first_name">NOME</label>
+                                </li>
+                            </ul>-->
 
-
-
-
-                <!--<ul>
-                    <li class="collection-item">Alan<span class="badge">1</span></li>
-                    <li class="collection-item">Alan<span class="new badge">4</span></li>
-                    <li class="collection-item">Alan</li>
-                    <li class="collection-item input-field">
-                        <input id="first_name" type="text" class="validate">
-                        <label for="first_name">NOME</label>
-                    </li>
-                </ul>-->
-        </form>
-    </div>
+                </form>
+            </div>
+        </div>
     </body>
 </html>
