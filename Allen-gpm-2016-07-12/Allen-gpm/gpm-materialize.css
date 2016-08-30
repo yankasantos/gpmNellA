@@ -77,12 +77,12 @@
 .fulano-name {
     position: relative;
     bottom: 4rem;
-    margin-left: 33%;
+    margin-left: 48%;
 }
 .fulano-email {
     bottom: 4rem;
     position: relative;
-    margin-left: 23%;
+    margin-left: 35%;
 }
 .name-email-top{
     margin: 0rem;
