@@ -28,6 +28,7 @@
 }
 .bg-imag{
     height: 16rem !important;
+    position: relative;
 }
 .box-dados{
     font-size: 18px;
@@ -69,30 +70,48 @@
     width: 6rem;
     height: 6rem;
     border-radius: 100% !important;
-    margin-left: 9rem !important;
+    margin-left: 10rem !important;
     position: absolute;
     top: 5rem !important;
     background-color: #ffffff;
 }
 .fulano-name {
-    position: relative;
-    bottom: 4rem;
-    margin-left: 48%;
+    /*margin-left: 30%;*/
+    text-align: center;
+    top: 12rem;
+    display: block;
 }
+
 .fulano-email {
-    bottom: 4rem;
-    position: relative;
-    margin-left: 35%;
+    /*margin-left: 30%;*/
+    text-align: center;
+    top: 12rem;
+    display: block;
 }
 .name-email-top{
     margin: 0rem;
     position: absolute;
+    text-align: center;
 }
 .lista-name-email{
+    position: absolute;
+    text-align: center;
+    top: 12rem;
+    padding: 0rem !important;
+}
+.top-gradiente-container{
+    position: relative;
+    height: 16rem;
+    top: 0rem;
+    width: 100% !important;
 
 }
 .box-gradient{
-    background: linear-gradient(to top, transparent 0%, rgba(255,0,0,0),rgba(110,110,110,1));
+    background: linear-gradient(to bottom, transparent 28%, rgba(255,0,0,0),rgba(110,110,110,1));
+    position: absolute;
+    top: 0rem;
+    height: 16rem;
+    padding: 0rem !important;
 }
 /*.name-email-top{
     !* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c4c4c+0,595959+12,666666+25,474747+39,2c2c2c+50,000000+51,111111+60,2b2b2b+76,1c1c1c+91,131313+100;Black+Gloss+%231 *!
