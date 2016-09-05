@@ -38,7 +38,7 @@
     width: 95% !important;
 }
 .pencil {
-    margin-right: 2rem;
+    /*margin-right: 2rem;*/
     position: relative;
     right: 0.2rem;
     top: 0rem;
@@ -149,11 +149,11 @@
     color: #4a4a4a;
     text-align: right;
 }
-.data-de-nascimento {
-    /*margin-top: 1rem;
-    padding-top: 0.1rem;*/
+/*.data-de-nascimento {
+    !*margin-top: 1rem;
+    padding-top: 0.1rem;*!
     text-align: right;
-}
+}*/
 .dado{
     margin-top: 1.2rem;
     color: #4a4a4a;
@@ -231,11 +231,11 @@
         width: 95% !important;
     }
     .pencil {
-        margin-right: 2rem;
+        /*margin-right: 2rem;*/
         position: relative;
         right: 0.2rem;
         top: 0rem;
-        padding-top: 0.1 !important;
+     /*   padding-top: 0.1 !important;*/
     }
     .box-pencil{
         position: absolute !important;
@@ -346,7 +346,7 @@
     .data-de-nascimento {
         /*margin-top: 1rem;
         padding-top: 0.1rem;*/
-        text-align: right;
+        /*text-align: right;*/
     }
     .dado{
         margin-top: 1.2rem;
