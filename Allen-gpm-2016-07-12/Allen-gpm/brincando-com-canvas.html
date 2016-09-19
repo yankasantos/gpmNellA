@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Brincando com Canvas</title>    
+    </head>
+    <body>
+        <canvas id="meu-canvas" width="200" height="200">
+            Seu browser não possui suporte a tag canvas do HTML5
+        </canvas>
+        <script>
+            var canvas = document.getElementById('meu-canvas');
+            var ctx = canvas.getContext('2d');
+            ctx.fillStyle = "rgb(255,0,0)";
+            ctx.fillRect(60,50,50);
+        </script>
+    </body>
+</html>

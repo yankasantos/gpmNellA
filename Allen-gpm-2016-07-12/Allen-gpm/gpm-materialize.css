@@ -187,10 +187,73 @@
 .materialboxed{
     height: 30%;
 }*/
+/************************************* MEDIA QUERIES 800 ****************************************************************************************/
+
+@media screen and(min-widht: 412px) {
+    .img-perfil {
+        width: 6rem;
+        height: 6rem;
+        border-radius: 100% !important;
+        margin-left: 12rem !important;
+        position: absolute;
+        top: 5rem !important;
+        background-color: #ffffff;
+
+}
 /************************************* MEDIA QUERIES 768 ****************************************************************************************/
 
 @media screen and (min-width: 768px){
-
+    .img-top {
+        margin-top: 3rem;
+        position: absolute;
+        height: 20rem !important;
+    }
+    .card-image {
+        border-radius: 50% !important;
+        height: 20rem !important;
+    }
+    .bg-imag {
+        height: 20rem !important;
+        position: relative;
+    }
+    .box-gradient {
+        background: linear-gradient(to bottom, transparent 28%, rgba(255, 0, 0, 0), rgba(110, 110, 110, 1));
+        position: absolute;
+        top: 0rem;
+        height: 23rem;
+        padding: 0rem !important;
+    }
+    .img-perfil {
+        width: 8rem;
+        height: 8rem;
+        border-radius: 100% !important;
+        margin-left: 24rem !important;
+        position: absolute;
+        top: 7rem !important;
+        background-color: #ffffff;
+    }
+    .img-user {
+        position: relative;
+        height: 8rem !important;
+        padding-top: 0.4rem;
+        padding-left: 1.5rem;
+        padding-bottom: 0.2rem;
+        /* border-radius: 50% !important; */
+        object-fit: cover;
+        object-position: top center;
+    }
+    .lista-name-email {
+        position: absolute;
+        text-align: center;
+        top: 16rem;
+        left: 1rem !important;
+        padding: 0rem !important;
+        font-size: 24px;
+    }
+    .menu-sanduiche{
+        margin-left: 1rem;
+    }
+}
 }
 /************************************* MEDIA QUERIES 800 ****************************************************************************************/
 
