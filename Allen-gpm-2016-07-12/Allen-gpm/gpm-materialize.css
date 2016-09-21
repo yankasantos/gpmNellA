@@ -190,22 +190,61 @@
 /************************************* MEDIA QUERIES 412 ****************************************************************************************/
 
 @media (min-widht: 412px){
-    /*.img-perfil {
+    .card-move-conteiner{
+        width:100%;
+        padding: 0rem!important;
+    }
+    .img-perfil {
         width: 6rem;
         height: 6rem;
         border-radius: 100% !important;
-        margin-left: 11rem !important;
-        position: absolute;
+        margin-left: 50%
+        margin: 10% auto 0 auto !important;
+       /* position: absolute;*/
         top: 5rem !important;
         background-color: #ffffff;
     }
+    .img-top {
+        margin-top: 3rem;
+        position: absolute;
+        height: 20rem !important;
+    }
+
     .lista-name-email {
         position: absolute;
         text-align: center;
-        top: 12rem;
-        font-size: 16px;
+        top: 5rem;
         padding: 0rem !important;
-    }*/
+        font-size: 16px;
+    }
+    .img-user {
+        position: relative;
+        height: 8rem !important;
+        object-fit: cover;
+        object-position: top center;
+        background-color: #ffffff;
+        border-radius: 100%;
+        padding: 15px 28px 15px 28px;
+    }
+    .card-image {
+        border-radius: 50% !important;
+        height: 20rem !important;
+    }
+    .bg-imag {
+        height: 20rem !important;
+        position: relative;
+    }
+    .box-gradient {
+        background: linear-gradient(to bottom, transparent 28%, rgba(255,0,0,0),rgba(110,110,110,1));
+        position: relative;
+        height: 9rem;
+        bottom: 10rem;
+        padding: 0rem !important;
+        width: 100% !important;
+    }
+    .menu-sanduiche{
+        margin-left: 1rem;
+    }
 
 }
 /************************************* MEDIA QUERIES 768 ****************************************************************************************/
@@ -242,7 +281,7 @@
         border-radius: 100%;
         padding: 15px 28px 15px 28px;
     }
-    }
+
 
     .card-image {
         border-radius: 50% !important;
